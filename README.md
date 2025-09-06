@@ -1,5 +1,5 @@
 # ixchats (linux)
-just a ixchat server for linux or something, yuh<br><br>
+just a ixchat server for linux or something, yuh<br>
 
 ixchats is a website designed to evoke the nostalgic charm of xat, while delivering a superior experience with enhanced features, sleek design, and cutting-edge functionality. Tailored for seamless social interaction, ixchats offers a dynamic platform for users to create and join chat rooms, connect with friends, and engage in lively communities; all with a fresh, contemporary twist. Xat has it all complicated, while we have improved performance and a modern design!<br>
 not checked in root folder: `js`, `vendor`, and `web_gear`<br>
