@@ -32,7 +32,9 @@ Progress:
 Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me but basically all CSP's in the views folder is like that)
 
 Legal:
-`CMS+PANEL/app/views/ChatTerms.php` - Terms of Use
+`app/views/ChatTerms.php` - Terms of Use
+> Also stored in: `app/views/maintenance.php`
+
 ## Key Sections
 
 ### 1. MySQL Database
