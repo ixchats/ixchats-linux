@@ -1,0 +1,78 @@
+<!doctype html>  <head> <meta charset=utf-8> <title>apps</title> <link rel=stylesheet href=bootstrap-reboot.css> <link rel=stylesheet href=app.css> <style>body{background-color:#f5f5f740;background-image:url(x.svg);background-repeat:no-repeat;background-size:480px;background-position:calc(100% - -25px) 73px;background-blend-mode:luminosity}.selectorContainer{display:flex;display:-webkit-flex;flex-wrap:wrap;flex-direction:row;justify-content:space-evenly;align-content:flex-start}.selectorAppItem{flex:0 0 0;margin:0;margin:12px;cursor:pointer;border-radius:6px;background-color:#0c0c0c1a;padding:0 4px 0 4px}.selectorAppItem:hover{background:#0c0c0c33}.selectorApp{width:50px;height:50px;margin:5px;margin-bottom:2px}::-webkit-scrollbar{-webkit-appearance:none;width:7px}::-webkit-scrollbar-thumb{border-radius:4px;background-color:rgba(0,0,0,.5);-webkit-box-shadow:0 0 1px rgba(255,255,255,.5)}.sectionText{color:#fff;margin:.5em .5em 0 1.5em;font-weight:500;justify-content:unset}</style> </head> <body> <div class='selectorContainer sectionText'data-localize=mob2.apps>APPS</div> <div id=seven class=selectorContainer></div>   <script> 'use strict';
+
+      let xConfig = {
+        origin : 'https://rxat.ro'
+      }
+
+      function smPressed(Obj)
+      {
+        //alert('smPressed='+sm+' '+num);
+        //let Obj = JSON.parse(j);
+        Obj.action = 'sideload';
+        parent.postMessage(JSON.stringify(Obj), xConfig.origin);
+      }
+
+      function addSm(pa, Obj, c1, c2)
+      {
+        let pael = document.getElementById(pa);
+        let el = document.createElement('div');
+        el.className = c1;
+        el.onclick = function() { smPressed(Obj); };
+        pael.appendChild(el);
+        let el2 = document.createElement('div');
+        el2.className = 'svgBack ' + c2;
+        el2.style = 'background-image: url(apps/'+Obj.n+'.svg);';
+        el.appendChild(el2);
+
+        let el3 = document.createElement('div');
+        if(Obj.n)
+        {
+          el3.style = 'font-size: 12px; color: #fff; text-align:center; margin-top: 5px;';
+          el.appendChild(el3);
+          el3.appendChild(document.createTextNode(Obj.n));
+        }
+		/*Non html5 apps, disabled for now*/
+        if(Obj.n2)
+        {
+			el3.style = 'font-size: 12px; color: #fff; text-align:center; margin-top: 5px; opacity: .3;';
+			el2.style = 'background-image: url(apps/'+Obj.n2+'.svg); opacity: .1;';
+			el.title = 'Available soon';
+			el.appendChild(el3);
+			el3.appendChild(document.createTextNode(Obj.n2));
+			el.onclick = null;
+        }
+      }
+
+      const apps = [
+      // n:trade, i:30008, w:600 (default 425), o:old
+      //{n:'smilies', i:30006, f:"smilies", o:1},
+      {n:'trade', i:30008 },
+      {n2:'grid', i:30004, o:1 },
+      //{n:'media', i:10001, f:"media", o:1 },
+      {n:'media', i:10001 },
+      // {n:'translator', i:20034, o:1 },
+      {n2:'doodle', i:10000},
+      {n:'xavi', i:20047},
+      {n2:'live', i:40000, o:1 },
+      {n2:'spacewar', i:60201, o:1 },
+      {n2:'matchrace', i:60193, o:1 },
+      {n2:'doodlerace', i: 60189, o:1},
+      {n:'snakerace', i:60195 },
+      {n2:'switch', i:60239, o:1 },
+      {n2:'hearts', i:60225, o:1 },
+      {n2:'darts', i:60247, o:1 },//20024
+      {n2:'zwhack', i:60257, o:1 },
+      {n2:'stick', i:20038, o:1 },
+      {n2:'music', i:20042, o:1 },
+      //{n:'effects', i:20032, o:1 },
+      //{n:'webcam', i:30012, o:1 },//20030
+      {n:'chess', i:20002},
+      //{n:'shoot', i:20004, o:1 },
+      {n:'fourinarow', i:20010},
+      {n:'canvas', i:60002 },
+      //{n:'oldcanvas', i:60002 },
+      {n2:'pool', i:20006, o:1 }
+      ];
+
+      for(let i =0; i<apps.length; i++)
+        addSm('seven', apps[i], 'selectorAppItem', 'selectorApp'); </script> 
