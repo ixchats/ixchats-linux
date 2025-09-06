@@ -13,10 +13,10 @@ just a ixchat for linux or something, yuh<br><br>
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.<br>
 `app/functions/web_gear/group/Events2.php` - incomplete code at like 175 "meh too busy to finish it, maybe later"<br>
 `/app/functions/web_gear/user/Profile2.php` - this is still using xat domains!! fix<br>
-`app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)
-what is the goe html and custom chat sounds at 180.html?? "Gsound"??
-`content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio, tho they're all looking classic so idk about higher quality)
-`/content/web/` - why tf all these exist bro also it has mentions of rxat
+`app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)<br>
+what is the goe html and custom chat sounds at 180.html?? "Gsound"??<br>
+`content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio, tho they're all looking classic so idk about higher quality)<br>
+`/content/web/` - why tf all these exist bro also it has mentions of rxat too im not bothering with that because theres already files with php, is this only for reference?<br>
 
 `content/js/xmas/` this needs deob, so easy
 `content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!
