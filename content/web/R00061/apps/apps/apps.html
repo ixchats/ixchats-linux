@@ -1,0 +1,68 @@
+<!doctype html>  <head> <meta charset=utf-8> <title>apps</title> <link rel=stylesheet href=bootstrap-reboot.css> <link rel=stylesheet href=app.css> <style>body{background-color:#f5f5f740}.selectorContainer{display:flex;display:-webkit-flex;flex-wrap:wrap;flex-direction:row;justify-content:space-evenly;align-content:flex-start}.selectorAppItem{flex:0 0 0;margin:0;margin:12px;cursor:pointer;border-radius:6px;background-color:#e9e9e957;padding:0 4px 0 4px}.selectorAppItem:hover{background:#e9e9e99c}.selectorApp{width:50px;height:50px;margin:5px;margin-bottom:2px}::-webkit-scrollbar{-webkit-appearance:none;width:7px}::-webkit-scrollbar-thumb{border-radius:4px;background-color:rgba(0,0,0,.5);-webkit-box-shadow:0 0 1px rgba(255,255,255,.5)}.sectionText{color:#000;margin:.5em .5em 0 1.5em;font-weight:500;justify-content:unset}</style> </head> <body> <div class='selectorContainer sectionText'>APPS</div> <div id=seven class=selectorContainer></div>   <script> 'use strict';
+
+      let xConfig = {
+        origin : 'https://rxat.ro'
+      }
+
+      function smPressed(Obj)
+      {
+        //alert('smPressed='+sm+' '+num);
+        //let Obj = JSON.parse(j);
+        Obj.action = 'sideload';
+        parent.postMessage(JSON.stringify(Obj), xConfig.origin);
+      }
+
+      function addSm(pa, Obj, c1, c2)
+      {
+        let pael = document.getElementById(pa);
+        let el = document.createElement('div');
+        el.className = c1;
+        el.onclick = function() { smPressed(Obj); };
+        pael.appendChild(el);
+        let el2 = document.createElement('div');
+        el2.className = 'svgBack ' + c2;
+        el2.style = 'background-image: url(apps/'+Obj.n+'.svg);';
+        el.appendChild(el2);
+
+        let el3 = document.createElement('div');
+        if(Obj.n)
+        {
+          el3.style = 'font-size: 12px; color: #000; text-align:center;';
+          el.appendChild(el3);
+          el3.appendChild(document.createTextNode(Obj.n));
+        }
+      }
+
+      const apps = [
+      // n:trade, i:30008, w:600 (default 425), o:old
+      //{n:'smilies', i:30006, f:"smilies", o:1},
+      {n:'trade', i:30008 },
+      {n:'grid', i:30004, o:1 },
+      //{n:'media', i:10001, f:"media", o:1 },
+      {n:'media', i:10001 },
+      // {n:'translator', i:20034, o:1 },
+      {n:'doodle', i:10000},
+      {n:'xavi', i:20047},
+      {n:'live', i:40000, o:1 },
+      {n:'spacewar', i:60201, o:1 },
+      {n:'matchrace', i:60193, o:1 },
+      {n:'doodlerace', i: 60189, o:1},
+      {n:'snakerace', i:60195, o:1 },
+      {n:'switch', i:60239, o:1 },
+      {n:'hearts', i:60225, o:1 },
+      {n:'darts', i:60247, o:1 },//20024
+      {n:'zwhack', i:60257, o:1 },
+      {n:'stick', i:20038, o:1 },
+      {n:'music', i:20042, o:1 },
+      //{n:'effects', i:20032, o:1 },
+      //{n:'webcam', i:30012, o:1 },//20030
+      {n:'chess', i:20002},
+      //{n:'shoot', i:20004, o:1 },
+      {n:'fourinarow', i:20010},
+      {n:'canvas', i:60002 },
+      //{n:'oldcanvas', i:60002 },
+      {n:'pool', i:20006, o:1 }
+      ];
+
+      for(let i =0; i<apps.length; i++)
+        addSm('seven', apps[i], 'selectorAppItem', 'selectorApp'); </script> 
