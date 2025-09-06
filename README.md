@@ -1,6 +1,6 @@
 # ixchats-linux
 just a ixchat for linux or something, yuh
-
+`app/classes/Chat.class.php` - lists for games, backs, games, backgrounds, etc
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.
 
 ## Key Sections
