@@ -1,0 +1,40 @@
+<?php
+
+
+$array = [
+     'groups' => 'Grupos',
+     'store' => 'Tienda',
+     'buyxats' => 'Comprar '. XAT_NAME .'s  days',
+     'powers' => 'Powers',
+     'xavi' => 'xavis',
+     ''. XAT_NAME .'group' => 'Grupos de '. XAT_NAME .'',
+     'shortname' => 'Nombre Corto',
+     'promotion' => 'Promoción',
+     'auctions' => 'Subastas',
+     'community' => 'Comunidad',
+     'more' => 'Más',
+     'twitter' => 'Twitter',
+     'wiki' => 'Wiki',
+     'support' => 'Soporte',
+     'contact' => 'Contacto',
+     'help' => 'Ayuda',
+     'trade' => 'Cambio',
+     'widgets' => 'Herramientas',
+     'login' => 'Iniciar Sesión',
+     'language' => 'Idioma',
+     'privacy' => 'Privacidad',
+     'terms' => 'Términos',
+     'safety' => 'Seguridad',
+     'failed' => 'fallido',
+     'evalid' => 'Correo electrónico no válido',
+     'recaperr' => 'El reCAPTCHA no fue ingresado correctamente. Por favor, inténtalo de nuevo. (reCAPTCHA dijo',
+     'notbot' => 'y para verificar que no eres un robot',
+     'numinbox' => 'Por favor ingresa éste número en el recuadro',
+     'cancel' => 'Cancelar',
+     'submit' => 'Enviar',
+     'wrongnum' => '¡Número incorrecto introducido!',
+     'ayaherr' => 'Necesitas comprobar que eres humano.',
+	 'ads' => 'anuncios',
+     'buygroup' => 'grupos'
+]
+?>

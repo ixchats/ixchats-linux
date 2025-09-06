@@ -1,0 +1,42 @@
+<?php
+
+
+$array = [
+     '00' => '(granted)Tu [deseo|petición|anhelo|orden] es [concedido|concendido incondicionalmente|mi orden].',
+     '01' => '(granted)[Piensas|Sueñas] en pequeño pero [OK|de acuerdo|bien].',
+     '02' => '(granted)Un [extraño|peculiar|inusual|raro] [deseo|petición|anhelo|orden] que puedo [conceder|permitir|aceptar].',
+     '03' => '(granted)¡[Increíble|Asombroso|Estupendo] deseo! Concedido.',
+     '04' => '(granted)Tu [deseo|petición|anhelo|orden] ha sido concedido, por favor úsalo [sabiamente|con cuidado|correctamente|cautelosamente|para el beneficio de todos]',
+     '05' => '(catch)Tu [deseo|petición|anhelo|orden] será concedido [pero no durante un tiempo|pero no por un tiempo|pero no inmediatamente|en un futuro lejano|en la plenitud del tiempo|eventualmente|algún día].',
+     '06' => '(catch)Ese deseo [no puedo concederlo|no lo concederé|me rehúso a concederlo] pero a cambio recibirás [lo que realmente querías|lo que necesitas|lo que debiste pedir|tu deseo secreto].',
+     '07' => '(catch)Te concedo sólo [la mitad|algo|parte|un poco] de ese deseo.',
+     '08' => '(catch)Tu deseo fue [concedido|autorizado|aceptado|permitido] pero sólo por [hoy|un tiempo corto|un rato].',
+     '09' => '(catch)Yo [pienso|creo|sé] que [te arrepentirás|estarás decepcionado] pero concedido [de igual forma|de todas maneras].',
+     '10' => '(evil)Tu deseo fue concedido pero no [te hará feliz|te traerá alegría|será lo que quisiste que fuese].',
+     '11' => '(evil)Tu deseo ha sido concedido pero te convertirás en [una rana|un mono|un duendecito|una calabaza|un gato|un perro|un ratón|un lagarto|un robot|una estatua].',
+     '12' => '(evil)[OK|De acuerdo|Está bien|Aprobado|Bien|Autorizado|Aceptable], pero deberías [ser cuidadoso|ser cauteloso|estar nervioso] de lo que deseas.',
+     '13' => '(refused)Tu deseo está mas allá de [mi capacidad|mi destreza|mi poder|mis habilidades|mis medios].',
+     '14' => '(refused)Puedes pensar en algo [mejor|más cool|más ambicioso|grandioso] que eso.',
+     '15' => '(refused)¡[No hay trato|De ninguna manera|No hay posibilidad|Pffft]! [Intenta con|Tendrías mas suerte con] [un buen deseo|un pastel de cumpleaños|una estrella fugaz|un hueso de la suerte|un arco iris]',
+     '16' => '(refused)[Lo siento|Disculpas|Lamentablemente], me quede sin deseos por [hoy|ahora|un tiempo].',
+     '17' => '(refused)(grant)Podría [conceder|permitir|aceptar] ese [deseo|petición|anhelo|orden] pero sería [un desastre|una calamidad|una catástrofe|un fracaso|dañino|una tragedia|una adversidad|una ruina].',
+     '18' => '(no)Yo [quiero|amo|respeto|admiro|apruebo] ese deseo pero [no|no hay chance|nah]',
+     '19' => '(no)Puedes [lograr|realizar|alcanzar|producir|obtener] eso [por tu cuenta|tú mismo|sin mi].',
+     '20' => '(no)[Jamás|Nunca|No] [va a|podrá] pasar [hermano|amigo|cuate|amigo mío|compa|camarada|viejo]!',
+     '21' => '(no)Si lo hubieses pedido [ayer|la semana pasada] te [habría|hubiera|hubiese] podido ayudar.',
+     '22' => '(no)Sabes que no puedo [conceder|permitir|aceptar] eso.',
+     '23' => '(no)¡Ya no tienes deseos!',
+     '24' => '(angry)Pediste [demasiado|más de lo que es justo para mi|más de lo que puedo permitir] así que obtendrás[nada|zip|nada en absoluto].',
+     '25' => '(angry)No [gastes mi tiempo|me molestes] con [cosas insignificantes|cosas sin sentido|estupideces] como esa.',
+     '26' => '(angry)¡Tú [me despertaste|me molestaste|me llamaste|me convocaste] para pedirme eso!',
+     '27' => '(angry)Puedes [desear|pedir|solicitar|ordenar] lo que sea y ¿Eso es lo que quieres?',
+     '28' => '(angry)¡Deja de pedir deseos y cúmplelos tú mismo!',
+     '29' => '(angry)¡Que [basura de|estúpido|idiota|imbécil|absurdo|miserable] [deseo|petición|anhelo|orden]!',
+     '30' => '(wisdom)A cambio, te ofrezco [sabiduría|un consejo|la verdad]. [Nunca comas la nieve amarilla|Más vale pájaro en mano que cien volando|Un tonto y su dinero no están juntos mucho tiempo|Un amigo en la necesidad es amigo de verdad].',
+     '31' => '(wisdom)Sabiendo que [un trabajo digno de hacer, vale la pena hacerlo bien|el conocimiento es algo peligroso|un pez se pudre por la cabeza|es mejor asegurar que lamentar] te servirá mejor.',
+     '32' => '(wisdom)No [necesitas|quieres] eso, solo recuerda [una olla vigilada nunca hierve|la ausencia hace crecer el cariño|ser agradecido por lo que tienes|mas vale prevenir que lametar].',
+     '33' => '(wisdom)Los deseos son para [tontos|perdedores|idiotas], todo lo que debes saber es que [los tramposos nunca prosperan|no pongas todos en una sola canasta|la fortuna favorece a los valientes|el conocimiento es poder].',
+     '34' => '(wisdom)Por qué no [pensé en|obtuve] eso yo mismo.',
+     '35' => '(wisdom)Bueno ese deseo es [uno nuevo para mi|el más raro que me han pedido|muy extraño].'
+	]
+?>
