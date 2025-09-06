@@ -1,0 +1,42 @@
+<?php
+
+
+$array = [
+     '00' => '(granted)Seu [desejo|pedido|querer|anseio] é [concedido|concedido incondicionalmente|meu comando].',
+     '01' => '(granted)Você [pensa|sonha] pequeno mas [ok|de boa|tudo bem].',
+     '02' => '(granted)Um [desconhecido|esquisito|incomum|estranho] [desejo|pedido|querer|anseio] que eu posso [conceder|permitir|consentir].',
+     '03' => '(granted)[Impressionante|Incrível|Ótimo] desejo! Concedido.',
+     '04' => '(granted)Seu [desejo|pedido|querer|anseio] foi concedido, por favor use com [sabedoria|com cuidado|corretamente|cautelosamente|para o beneficio de todos].',
+     '05' => '(catch)Seu [desejo|pedido|querer|anseio] será concedido [mas não por algum tempo|mas não por enquanto|mas não agora|em um futuro distante|na plenitude do tempo|eventualmente|em um dia].',
+     '06' => '(catch)Esse desejo eu [não posso fazer|não irei fazer|recuso] mas em vez disso você vai conseguir [o que realmente queria|o que precisa|o que você devia ter pedido|seu desejo secreto].',
+     '07' => '(catch)Só posso conceder [metade|um pouco|uma parte|um pouquinho] desse desejo.',
+     '08' => '(catch)Seu desejo é [concedido|permitido|aceitável|consentido] mas apenas por [hoje|pouco tempo|enquanto].',
+     '09' => '(catch)Eu [acho|acredito|sei] que você vai [se arrepender|ficar desapontado] mas vou conceder [a mesma coisa|de qualquer maneira].',
+     '10' => '(evil)Seu desejo é concedido mas isso não vai [deixar você feliz|te trazer alegria|ser tudo que você quer].',
+     '11' => '(evil)Seu desejo foi concedido mas você também vai virar [um sapo|um macaco|uma fada|uma abóbora|um gato|um cachorro|um rato|um lagarto|um robô|uma estátua].',
+     '12' => '(evil)[Ok|De boa|Tudo certo|Aprovado|Tudo bem|Autorizado|Aceitável], mas você deveria ser [cuidadoso|cauteloso|nervoso] sobre o que você deseja.',
+     '13' => '(refused)Seu desejo vai muito além [da minha capacidade|do meu talento|do meu poder|da minha condição|da minha habilidade|dos meus meios].',
+     '14' => '(refused)Você consegue pensar em algo [melhor|mais legal|mais ambicioso|mais importante] do que isso.',
+     '15' => '(refused)[Sem acordo|Sem jeito|Sem chance|Pffft]! [Tente|Você teria mais sorte] [com um poço da sorte|com um bolo de aniversário|com uma estrela cadente|com um osso da sorte|com um arco-íris].',
+     '16' => '(refused)[Desculpe|Minhas desculpas|Lamentavelmente], estou sem desejos por [hoje|agora|enquanto].',
+     '17' => '(refused)(grant)Eu poderia [conceder|permitir|consentir] esse [desejo|pedido|querer|anseio] mas isso levaria [a um desastre|a uma calamidade|a uma catástrofe|a uma falha|a um prejuízo|a uma tragédia|ao azar|a destruição].',
+     '18' => '(no)Eu [gosto deste|amo esse|respeito esse|admiro esse|aprovo esse] desejo mas [não|sem chance|não].',
+     '19' => '(no)Você pode [alcançar|realizar|atingir|trazer|obter] isso [por si só|por você|sem mim].',
+     '20' => '(no)[Não|Nunca|Não] [vai|vai] acontecer [camarada|amigo|companheiro|meu amigo|parceiro|amigo|amigo|amigo]!',
+     '21' => '(no)Se você tivesse pedido por isso [ontem|semana passada] eu [poderia|conseguiria|poderia] ter ajudado você.',
+     '22' => '(no)Você sabe que eu não posso [conceder|permitir|consentir] isso.',
+     '23' => '(no)Você ficou sem desejos!',
+     '24' => '(angry)Você pediu [por muito|mais do que é justo|mais do que posso conceder] então você vai ter [nada|nada|nada mesmo].',
+     '25' => '(angry)Não [desperdice meu tempo|me incomode] com [coisas insignificantes|coisas sem sentido|coisas estupidas] como essa.',
+     '26' => '(angry)Você [me acordou|me incomodou|me chamou|me invocou] para pedir isso!',
+     '27' => '(angry)Você podia [desejar|pedir|pedir|exigir] qualquer coisa e é isso que você quer?',
+     '28' => '(angry)Pare de desejar sua vida e vá e faça algo!',
+     '29' => '(angry)Mas que [2desejo|pedido|desejo|anseio] [1lixo|estupido|idiota|imbecil|absurdo|inútil]!',
+     '30' => '(wisdom)Em vez disso, eu ofereço [sabedoria|conselho|a verdade]. [Nunca coma neve amarela|Um pássaro na mão vale por dois no arbusto|Um tolo e seu dinheiro são logo divididos|Um amigo com necessidade é realmente um amigo].',
+     '31' => '(wisdom)Sabendo que [um trabalho que vale a pena fazer, vale a pena fazer bem feito|um pouco de conhecimento é uma coisa perigosa|um peixe apodrece pela cabeça|é melhor prevenir do que se desculpar] vai servir você melhor.',
+     '32' => '(wisdom)Você não [precisa disso|querer isso], apenas lembre [que uma chaleira observada nunca ferve|que ausência faz com que o coração cresça mais afeiçoado|de agradecer pelo o que você tem|que um ponto no tempo, salve nove].',
+     '33' => '(wisdom)Desejos são para [tolos|perdedores|idiotas], tudo que você precisa saber é que [trapaceadores nunca prosperam|não coloque todos os seus ovos em uma só cesta|a fortuna favorece o atrevido|conhecimento é poder].',
+     '34' => '(wisdom)Porque eu não [pensei nisso|pensei em obter isso] para mim mesmo.',
+     '35' => '(wisdom)Bem esse desejo é [novo para mim|o mais estranho que já me pediram|muito estranho].'
+	]
+?>
