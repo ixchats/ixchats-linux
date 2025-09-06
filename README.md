@@ -112,12 +112,7 @@ Legal:<br>
 - **APIs**: Upgrade to Google Analytics 4; validate reCAPTCHA keys.
 - **Code**: Group constants, add comments, and consider modern PHP practices (e.g., namespaces).
 
-## Usage
-Include this file in your PHP application to access constants. Ensure sensitive data is secured before deployment.
-
 ## Next Steps
 - Specify tasks (e.g., debug SMTP, refactor code, explain flags).
 - Request security audit or integration help (e.g., MySQL, APIs).
 - Ask for visualizations if data is available (e.g., auction bids).
-
-*Last Updated: September 6, 2025*
