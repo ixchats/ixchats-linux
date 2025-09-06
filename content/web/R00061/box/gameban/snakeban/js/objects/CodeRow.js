@@ -1,0 +1,1 @@
+class CodeRow extends Phaser.GameObjects.Container{constructor(e,s,i,t,d){super(e,s,i),this.smilies=e.add.group();for(let s=0;s<t.length;s++)this.smilies.add(new Smiley(e,100*s,0,t[s],d[s],!0,this));this.setScale(.7),e.add.existing(this.smilies.getChildren()),e.add.existing(this)}update(){}}

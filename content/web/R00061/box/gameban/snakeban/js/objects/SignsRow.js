@@ -1,0 +1,1 @@
+class SignsRow extends Phaser.GameObjects.Container{constructor(s,i,t,e){super(s,i,t),this.signs=s.add.group();for(let i=0;i<e.length;i++)this.signs.add(s.add.sprite(70*i,0,"signs",e[i]));this.add(this.signs.getChildren()),s.add.existing(this)}}

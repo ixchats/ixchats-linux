@@ -1,0 +1,1 @@
+class Snow extends Phaser.GameObjects.Container{constructor(e,t,s,a,l,i){super(e,t,s),this.lastFlake=null;for(let t=0;t<i;t++){let t=new Flake(e,a,l);null!=this.lastFlake&&(t.prevFlake=this.lastFlake),this.lastFlake=t,this.add(t)}e.add.existing(this)}update(e,t){this.lastFlake.Move()}}
