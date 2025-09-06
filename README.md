@@ -1,8 +1,10 @@
-# ixchats-linux
-just a ixchat for linux or something, yuh<br><br>
+# ixchats (linux)
+just a ixchat server for linux or something, yuh<br><br>
+
+ixchats is a website designed to evoke the nostalgic charm of xat, while delivering a superior experience with enhanced features, sleek design, and cutting-edge functionality. Tailored for seamless social interaction, ixchats offers a dynamic platform for users to create and join chat rooms, connect with friends, and engage in lively communities—all with a fresh, contemporary twist. Xat has it all complicated, while we have improved performance and a modern design!<br>
 
 `app/functions/json/xavi/Action.php` - has emojis (named actions for some reason lol)<br>
-`app/functions/Redirect.php` - line 65 is hardcoded twitter and line 83 is hardcoded email
+`app/functions/Redirect.php` - line 65 is hardcoded twitter and line 83 is hardcoded email<br>
 `app/classes/Core.class.php` - on line 133 for the userdetails it can look up geo of an IP with the service https://ipgeolocation.io<br>
 `app/functions/web_gear/Translate1.php` - on line 79 there is the API for https://php.mk<br>
 `app/classes/Chat.class.php` - lists for games, backs, games, backgrounds, etc<br>
@@ -45,14 +47,14 @@ useless folder? `content/fonts/test/`<br>
 why tf is `app/views/terms.php` the only thing to include https://rxat.wiki/? lol<br>
 Progress:<br>
 Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me but basically all CSP's in the views folder is like that)<br>
-when our logo is done, put it in here: `content/img/`
+when our logo is done, put it in here: `content/img/`<br>
 
-Legal:
-`app/views/ChatTerms.php` - Terms of Use
-> Also stored in: `app/views/maintenance.php`
-> Also stored in: `apps/views/terms.php`
-> Also stored in: `apps/views/Tools.php` (why is it located in 3 files wtf)
-`app/views/Privacy.php` - Privacy Policy
+Legal:<br>
+`app/views/ChatTerms.php` - Terms of Use<br>
+> Also stored in: `app/views/maintenance.php`<br>
+> Also stored in: `apps/views/terms.php`<br>
+> Also stored in: `apps/views/Tools.php` (why is it located in 3 files wtf)<br>
+`app/views/Privacy.php` - Privacy Policy<br>
 
 ## Key Sections
 
