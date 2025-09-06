@@ -1,5 +1,7 @@
 # ixchats-linux
 just a ixchat for linux or something, yuh<br><br>
+
+`app/functions/Redirect.php` - line 65 is hardcoded twitter and line 83 is hardcoded email
 `app/classes/Core.class.php` - on line 133 for the userdetails it can look up geo of an IP with the service https://ipgeolocation.io<br>
 `app/classes/Chat.class.php` - lists for games, backs, games, backgrounds, etc<br>
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.<br>
