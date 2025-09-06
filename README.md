@@ -16,6 +16,7 @@ just a ixchat for linux or something, yuh<br><br>
 `app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)
 what is the goe html and custom chat sounds at 180.html?? "Gsound"??
 
+`content/js/xmas/` this needs deob, so easy
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
 (use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)
 Fixed:<br>
