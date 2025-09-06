@@ -36,6 +36,7 @@ Legal:
 `app/views/ChatTerms.php` - Terms of Use
 > Also stored in: `app/views/maintenance.php`
 > Also stored in: `apps/views/terms.php`
+> Also stored in: `apps/views/Tools.php` (why is it located in 3 files wtf)
 `app/views/Privacy.php` - Privacy Policy
 
 ## Key Sections
