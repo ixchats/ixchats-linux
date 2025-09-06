@@ -1,0 +1,19 @@
+<!DOCTYPE html>  <head> <meta charset=UTF-8> <meta http-equiv=Content-Security-Policy content='
+        default-src &#39;self&#39;;
+        style-src &#39;self&#39; &#39;unsafe-inline&#39; https://fonts.googleapis.com/ https://fonts.gstatic.com/;
+        connect-src &#39;self&#39; https://rxat.ro/ ;
+        img-src &#39;self&#39; data: https://rxat.ro https://i0.rxat.ro/ https://i1.rxat.ro/ https://s0.rxat.ro/ https://s1.rxat.ro/ https://gs.rxat.ro/ https://images.weserv.nl/;
+        script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;;
+        frame-src &#39;self&#39; https://rxat.ro/;
+        base-uri &#39;self&#39;;
+        object-src &#39;none&#39;;
+        font-src https://fonts.gstatic.com/;
+        form-action &#39;none&#39;;'> <title>Xavi Editor | xat</title> <link rel=stylesheet href=../../box/www/platform.css> <link rel=stylesheet href=xavi.css> <link rel=stylesheet href='//fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese'title=roboto> <script src=../../lib/lz-string.js></script> <script src=../../box/www/xat.js></script> <script src=xavi.js></script> </head> <body> <div class=editor> <div class=leftPanel> <div class=menu> <ul class=items id=items> <li class=item data-tab=head style=background-image:url(images/head.svg)></li> <li class=item data-tab=hair style=background-image:url(images/hair.svg)></li> <li class=item data-tab=eyes style=background-image:url(images/eye.svg)></li> <li class=item data-tab=brows style=background-image:url(images/brow.svg)></li> <li class=item data-tab=mouth style=background-image:url(images/mouth.svg)></li> <li class=item data-tab=items style=background-image:url(images/acc.svg)></li> <li class=item data-tab=favorites style=background-image:url(images/fav.svg)></li> </ul> </div> <div class=box> <ul class=xavis id=xavis></ul> </div> </div> <div class=rightPanel> <div class=xaviContainer id=xaviFrame></div> <div class=settings> <div class=setting> <label for=posX>PosX</label> <input type=range min=-10 max=10 value=0 step=0.01 class=slider id=posX> </div> <div class=setting> <label for=posY>PosY</label> <input type=range min=-10 max=10 value=0 step=0.01 class=slider id=posY> </div> <div class=setting> <label for=scaX>ScaleX</label> <input type=range min=-0.5 max=0.5 value=0 step=0.0005 class=slider id=scaX> </div> <div class=setting> <label for=scaY>ScaleY</label> <input type=range min=-0.5 max=0.5 value=0 step=0.0005 class=slider id=scaY> </div> <div class=setting> <label for=rot>Rotation</label> <input type=range min=-180 max=180 value=0 step=1 class=slider id=rot> </div> <div class=setting> <input type=button id=addFavorite class=xButton value=Favorite> </div> <div class=setting> <input type=button id=save class=xButton value=Save> </div> </div> </div> </div> <script> (function() { 'use strict';
+                document.addEventListener("DOMContentLoaded", () => {
+                    let xavi = new Xavi();
+
+                    /* Changing app width. */
+                	parent.document.querySelector("#sideframe").style.width = "600px";
+                	parent.document.querySelector("#sideframe").style.transition = "all ease .5s";
+                });
+            }()); </script> 
