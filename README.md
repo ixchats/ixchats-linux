@@ -17,9 +17,10 @@ just a ixchat for linux or something, yuh<br><br>
 what is the goe html and custom chat sounds at 180.html?? "Gsound"??<br>
 `content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio, tho they're all looking classic so idk about higher quality)<br>
 `/content/web/` - why tf all these exist bro also it has mentions of rxat too im not bothering with that because theres already files with php, is this only for reference? (`content/web/R00036/apps/fourinarow/css/styles.css` - wtf why is it called `styles.css`, call it `style.css`)<br>
+`content/web/R00036/img/home` - has mentions to xat, retake screenshots?<br>
 
-`content/js/xmas/` this needs deob, so easy
-`content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!
+`content/js/xmas/` this needs deob, so easy<br>
+`content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!<br>
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
 (use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)<br>
 
