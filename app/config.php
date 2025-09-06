@@ -28,7 +28,7 @@ define('I_BACKGROUND', 'https://img.xatblog.net/image/71aTpYt1i.png');
 
 /* Global variables */
 define('METHOD', 'https:');
-define('CDNMAIN', '//localhost:8000/'); // change if needed for production, example: ixchats.com
+define('CDNMAIN', '//localhost:80/'); // change if needed for production, example: ixchats.com
 define('XAT_NAME', 'ixchats'); // the xat instance name
 define('FACEBOOK', 'https://www.facebook.com/ixchats');
 define('BOXVERSION', 'R00065');
