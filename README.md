@@ -29,7 +29,7 @@ not sure if it will break anything or not so i left it "System problem. Please t
 `app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com
 
 Progress:
-Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me)
+Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me but basically all CSP's in the views folder is like that)
 
 Legal:
 `CMS+PANEL/app/views/ChatTerms.php` - Terms of Use
