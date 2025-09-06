@@ -7,6 +7,7 @@ not checked in root folder:  `vendor`, and `web_gear`<br>
 `vendpr/Autoloader.php` about web crawlers aka search results and wtf encryption key?<br>
 `vendor/Http/Validator.class.php` recaptcha shit<br>
 `vendor/Translate/GoogleTranslate.class.php` - does this still work?<br>
+`web_gear/index.php` - wtf it's blank<br>
 
 `app/functions/json/xavi/Action.php` - has emojis (named actions for some reason lol)<br>
 `app/functions/Redirect.php` - line 65 is hardcoded twitter and line 83 is hardcoded email<br>
