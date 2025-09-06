@@ -1,0 +1,131 @@
+body {
+	padding:0px;
+	margin: 0px 0px 0px 0px;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+#xatstyheader {
+	BACKGROUND-IMAGE: url(https://i.imgur.com/m5iylzS.png);
+	height:130px;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}	
+
+#xatstyheaderad {
+	text-align: center;
+}
+
+#xatstyheadernav {
+	text-align: center;
+	color:#FFFFFF;
+	padding:10px;
+}
+
+#xatstyfooternav {
+	text-align: center;
+	color:#FFFFFF;
+	padding:10px;
+}
+
+.xatstynavlink A {
+	COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+}
+
+.xatstynavlink A:hover {
+	TEXT-DECORATION: underline;
+}
+
+#xatstyinfo a:link {
+	TEXT-DECORATION: none;
+	color: #0F46C5;
+}
+
+#xatstyinfo {
+	display: block;
+	position:absolute;
+	background-color:rgba(255, 255, 255, 0.5);
+	left:16px;
+	top:146px;
+	width:425px;
+	height:600px;
+}
+
+.avatar
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	width:425px;
+	height:425px;
+}
+
+#name {
+	font-size: 10.5pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	line-height:24px;
+	margin-left:13px;
+	width:425px;
+	height:24px;
+}
+
+#home {
+	display: block;
+	position: absolute;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABIklEQVQokWNgwAJOMxj4n2Ew5scmx4QucIbBOP+gvdKGPc6KDzZJ2NqjyzMjcw5xWczf5KtewWClzcCupchxi+FHQvFnoQ8rPz04iW4q/3Zh2/mVQTH/58+f/x8GVqxY8T8nPun/MhWX9TAnMp9hMOb/wc58YH2QpodZgCdDTEwM3CAdHR0GATFRhl2/X2v8/v0rouE53wKoJ4368/Pz/79///7//v37/79///4/Mnj9+vX/tLS0/3BPmzKcK/z+/TvDhQsXGBwdHRkuXLjAwMDAwODg4MCwYMECBhEREeyhZGBgwLB//34GAwMDBgYGBoaDBw8yPHjwAMW/LMgcAQEBBgcHB8zARwIY8UAI4NVQX1+PYSMjjAELBTxgwqxZswoBYjN5TeTmAw4AAAAASUVORK5CYII=") no-repeat;
+	height: 12px;
+    width: 12px;
+	left: 20px;
+    top: 505px;
+}
+
+#edit {
+	display: block;
+	position: absolute;
+	left: 397px;
+	top: 583px;
+	width: 10px;
+	height: 10px;
+	text-decoration: none;
+}
+
+#xatstyabout0 {
+	margin-top: 16px;
+	margin-left: 457px;
+	margin-right:152px;
+}
+
+#xatstyabout {
+	background:#fff;
+	color: #000000; 
+	font-size: 12pt; 
+	overflow: auto;
+	height: 600px;
+}
+
+#xatstysidead {
+	position: absolute;
+	right:16px;
+	top:146px;
+	width:120px;
+}
+
+#xatstywhatpoll {
+    margin: 16px 16px 16px 16px;
+	text-align: center;
+}
+
+#xatstybigad {
+    margin: 16px 16px 16px 16px;
+	text-align: center;
+}
+
+#xatstymedia0 {
+    margin: 16px 16px 16px 16px;
+}
+
+#xatstymedia {
+	background:#fff;
+	color: #000000; 
+	font-size: 12pt; 
+}

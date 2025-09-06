@@ -1,0 +1,210 @@
+/* groups
+-------------------------------------------------- */
+#groups .section_header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#groups .section_header.left hr.right {
+    width: 75%;
+}
+#groups .thumbnail {
+    background-color: #fff;
+    height:250px;
+    overflow:hidden; 
+    display:block;
+    position:relative;
+    border: 1px solid #d1d2d4;
+    -webkit-box-shadow: 3px 3px 8px 2px #e7e7e7;
+    -moz-box-shadow: 3px 3px 8px 2px #e7e7e7;
+    box-shadow: 3px 3px 8px 2px #e7e7e7;
+}
+#groups .thumbnail:hover {
+    -webkit-box-shadow: 0px 0px 8px 1px #0cacd3;
+    -moz-box-shadow: 0px 0px 8px 1px #0cacd3;
+    box-shadow: 0px 0px 8px 1px #0cacd3;
+}
+#groups .thumbnail a
+{
+  color: #333;
+}
+#groups .thumbnail a:hover
+{
+  text-decoration: none;
+}
+#groups .thumbnail h3
+{
+  text-align: center; 
+  font-size: 16px; 
+  margin-top: 0px;
+  margin-bottom: 4px;
+  line-height: 20px;
+}
+#groups .thumbnail .users {
+    position: absolute;
+    bottom: 0px;
+}
+#groups .thumbnail p
+{
+  text-align: center; 
+  margin-top: 10px; 
+  margin-bottom: 0px;
+  line-height: 16px;
+}
+#groups .thumbnail .pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  width:100%;
+  max-width: 150px;
+  vertical-align:middle;
+  -webkit-box-shadow: 3px 3px 8px 0px #e7e7e7;
+  -moz-box-shadow: 3px 3px 8px 0px #e7e7e7;
+  box-shadow: 3px 3px 8px 2px 0px e7e7e7;
+}
+#groups .searchbox
+{
+    margin-top:25px;
+    margin-bottom:15px;
+    padding-right:0px;
+}
+#groups .searchbox form {
+    text-align: center;
+    margin-top: 0px;
+}
+#groups .searchbox form button {
+    position: relative;
+    top: -1px;
+    margin-left: 10px;
+    font-weight: bold;	
+}
+#groups .searchbox .form-span input[type="text"][class*="span"]
+{
+    float: left;
+}
+#groups .searchbox .inline-center
+{
+    text-align: center;
+}
+#groups .searchbox .inline-center [class*="span"]
+{
+    float: none; display: inline;
+}
+#pager {
+    margin-top: 0px
+}
+#pager li a:hover {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px 1px #0cacd3;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px 1px #0cacd3;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px 1px #0cacd3; 
+}
+#pagination {
+    margin-top: 0px;
+}
+
+/*responsive
+-------------------------------------------------- */
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #groups .thumbnail {
+    height: 170px;
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+  #groups .thumbnail h3
+  {
+    font-size: 12px;
+	line-height: 16px;
+    margin-bottom: 1px;
+  }
+  #groups .thumbnail p
+  {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  #groups .thumbnail .pic {
+    height: 63px;
+  }
+  #groups .thumbnail {
+    height: 158px;
+  }
+}
+@media (max-width: 979px) {
+  
+}
+@media (min-width: 980px) {
+  #groups .thumbnail h3
+  {
+    font-size: 14px; 
+	line-height: 18px;
+    margin-bottom: 2px;
+  }  
+  #groups .thumbnail p
+  {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  #groups .thumbnail .pic {
+    height: 87px;
+  }
+  #groups .thumbnail {
+    height: 218px;
+  }
+}
+img[src=""] {
+    display: none;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  #groups .thumbnail h3
+  {
+    font-size: 16px; 
+	line-height: 20px;
+    margin-bottom: 4px;
+  }
+  #groups .thumbnail p
+  {
+    font-size: 14px;
+	line-height: 16px;
+  }
+  #groups .thumbnail .pic {
+    height: 100px;
+  }
+  #groups .thumbnail {
+    height:250px;
+  }
+  #groups .thumbnail .pic::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+#groups .thumbnail .pic:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
