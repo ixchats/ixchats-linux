@@ -1,2 +1,67 @@
 # ixchats-linux
 just a ixchat for linux or something, yuh
+
+`app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.
+
+## Key Sections
+
+### 1. MySQL Database
+- **Constants**: `MYSQL_HOST`, `MYSQL_USER`, `MYSQL_PASS`, `MYSQL_NAME`
+- **Details**: Connects to a MySQL database on `localhost`.
+- **Note**: Hardcoded credentials pose a security risk.
+
+### 2. Email Settings
+- **Constants**: `phpmail`, `smtpmail`, `SMTP_Sec`, `host_smtp`, `port_gmail`, `mail_gmail`, `pass_gmail`
+- **Details**: Supports PHP `mail()` or Gmail SMTP (port 465, SSL).
+- **Issues**: Empty `host_smtp`, `mail_gmail`, `pass_gmail` values; Gmail may require App Password.
+
+### 3. Site Settings
+- **Constants**: `DEBUG`, `LANGUAGES`, `DEFAULT_LANG`, `DOMAIN`, `SEASON`, `VERSION`, `MINIFY_HTML`
+- **Details**: Enables debug via URL, supports multiple languages (default: `en`), sets domain (`rxat.ro`), and minifies HTML.
+- **Note**: Debug via URL is risky in production.
+
+### 4. Index & Global Variables
+- **Constants**: `I_BACKGROUND`, `METHOD`, `CDNMAIN`, `XAT_NAME`, `FACEBOOK`, `SOCKDOMAIN`, `USEPORT`, `MAINCHAT`, `STARTING_XATS`, `NOT_ALLOW`, `ALLOW_EMAIL`
+- **Details**: Configures frontend (background image), chat (socket IP, port 842), virtual currency (`STARTING_XATS`: 50k), and restricted usernames/emails.
+- **Note**: `NOT_ALLOW` lists bad words; `ALLOW_EMAIL` limits providers.
+
+### 5. Options & Security
+- **Constants**: `Emailvalidator_API`, `GOOGLE_TRANSLATE`, `NO_PROXY`
+- **Details**: Enables API-based email validation and Google Translate; proxy settings unclear.
+- **Note**: Empty `MAILBOX_APIKEY` may break email validation.
+
+### 6. API Keys
+- **Constants**: `G_ANALYTICS`, `RECAPTCHA_PUBLIC`, `RECAPTCHA_PRIVATE`, `G_SEARCH_KEY`, `API_KEY`, `USER_DETAIL_KEY`, `TRANSLATE_APIKEY`
+- **Details**: Keys for Google Analytics, reCAPTCHA, and translation APIs.
+- **Warning**: Hardcoded keys are a security risk.
+
+### 7. Donation System
+- **Constants**: `CANCEL_DONATION`, `SUCCESS_DONATION`, `BUY_EMAIL`, `URL_DONATION`
+- **Details**: Configures donation URLs; `BUY_EMAIL` is empty.
+- **Note**: Duplicate URLs could be consolidated.
+
+### 8. Setup
+- **Constants**: `AUCTION_MINBID`, `ID_MAXCHARS`, `ID_MINCHARS`, `SN_MAXCHARS`, `SN_MINCHARS`, `MAX_ACCOUNT`
+- **Details**: Sets auction rules (min bid: 100), ID/short name lengths, and account limit (50).
+
+### 9. Flags
+- **Constants**: `F_AUTO_SIGN_IN`, `F_IS_GROUP`, `F_MEMBERS_ONLY`, etc.
+- **Details**: Bitwise flags for chat features (e.g., members-only, live mode).
+- **Note**: Redundant flags (e.g., `F_MEMBERS_ONLY2`) need clarification.
+
+## Recommendations
+- **Security**: Move credentials and API keys to environment variables (`.env`).
+- **Email**: Fix empty SMTP settings; use PHPMailer and Gmail App Password.
+- **Debug**: Restrict `DEBUG` to non-production environments.
+- **APIs**: Upgrade to Google Analytics 4; validate reCAPTCHA keys.
+- **Code**: Group constants, add comments, and consider modern PHP practices (e.g., namespaces).
+
+## Usage
+Include this file in your PHP application to access constants. Ensure sensitive data is secured before deployment.
+
+## Next Steps
+- Specify tasks (e.g., debug SMTP, refactor code, explain flags).
+- Request security audit or integration help (e.g., MySQL, APIs).
+- Ask for visualizations if data is available (e.g., auction bids).
+
+*Last Updated: September 6, 2025*
