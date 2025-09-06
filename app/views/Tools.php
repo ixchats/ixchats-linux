@@ -17,14 +17,12 @@
          https://<?php echo DOMAIN ?>/
          https://*.<?php echo DOMAIN ?>/
          https://www.xatech.com/
-         https://xat.wiki/
-         https://www.google-analytics.com/;
-         img-src 
+         https://xat.wiki/;
+         img-src
          &#39;self&#39;
          https://*.<?php echo DOMAIN ?>/
          https://<?php echo DOMAIN ?>/ 
          https://xat.wiki/
-         https://ssl.google-analytics.com/ 
          https://images.weserv.nl/;
          script-src
          &#39;self&#39; 
@@ -33,7 +31,6 @@
          https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js
          https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.runtime.js
          https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.js
-         https://www.google-analytics.com/ 
          https://www.google.com/recaptcha/
          https://www.gstatic.com/;
          frame-src 
@@ -59,7 +56,7 @@
       <script type=application/json id=xjson> {"type":"home","dir":"/content/web/<?php echo DIRVERSION;?>/"} </script> 
       <link href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css rel=stylesheet>
       <link href=/content/web/<?php echo DIRVERSION;?>/direct.css rel=stylesheet>
-      <link href='https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'rel=stylesheet>
+      <link href='https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap' rel=stylesheet>
       <link rel=manifest href=/content/web/<?php echo DIRVERSION;?>/manifest.json>
       <link rel=icon href=/content/web/<?php echo DIRVERSION;?>/img/favicon.ico>
       <link rel=icon href=/content/web/<?php echo DIRVERSION;?>/img/favicon-32x32.png sizes=32x32 type=image/png>
@@ -99,15 +96,15 @@
             <p data-localize=tools.searchdesc>Find out what people are talking about.</p>
             <form id=searchSubmit accept-charset=UTF-8>
                <div id=searcherror class='alert alert-danger d-none'role=alert> <span data-localize=tools.errorreq>Something went wrong! Please try again later</span> </div>
-               <div id=searchloading class='alert alert-info d-none'role=alert> <span data-localize=tools.pleasewaitsearch>Please wait while we are looking for results..</span> </div>
-               <div class='alert alert-danger d-none'data-no-result-div> <span data-localize=tools.nosearchres data-no-result>No results found</span> </div>
+               <div id=searchloading class='alert alert-info d-none' role=alert> <span data-localize=tools.pleasewaitsearch>Please wait while we are looking for results..</span> </div>
+               <div class='alert alert-danger d-none' data-no-result-div> <span data-localize=tools.nosearchres data-no-result>No results found</span> </div>
                <div class=mb-3>
                   <label for=searchValue data-localize=tools.search>search</label>: <input name=searchValue class=form-control id=searchValue required> 
                   <div class=lostpass><span data-localize=tools.searchinfo>Private Chats, Private Messages, Members Only, Don't List and Don't Store are NOT searchable. <a href=https://xat.wiki/Search target=_blank>More Information about search</a>.</span></div>
                </div>
                <div> <button type=submit id=butsearch href=# class='btn btn-primary btn-large'> <img class='mr-2 pb-1'src=/content/web/<?php echo DIRVERSION;?>/img/navbar/search.svg alt=search> <span data-localize=tools.search>search</span> </button> </div>
             </form>
-            <div class='mb-5 mt-3 d-none'data-search-results>
+            <div class='mb-5 mt-3 d-none' data-search-results>
                <h2 class=mb-3 data-localize=tools.results>Results:</h2>
                <div></div>
                <button type=button id=butpreviousresults href=# class='btn btn-primary btn-large'> <span data-localize=tools.moreresults>More results</span> </button> 
@@ -275,7 +272,7 @@
       <div id=termsDialog></div>
       <div id=privacyDialog>
          <div class='modal fade'id=privacyModal tabindex=-1 role=dialog aria-labelledby=privacyModalLabel aria-hidden=true>
-            <div class='modal-dialog mw-100 w-75'role=document>
+            <div class='modal-dialog mw-100 w-75' role=document>
                <div class=modal-content>
                   <div class=modal-header>
                      <h5 class=modal-title id=inappModalLabel><img class=mr-2 src=/content/web/<?php echo DIRVERSION;?>/img/navbar/terms.svg alt=terms><span data-localize=web.preferences>privacy preferences</span></h5>
@@ -300,7 +297,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class=modal-footer> <button id=openPolicy type=button class='btn btn-info'data-dismiss=modal><span data-localize=web.policy>privacy policy</span></button> <button id=privacyClose type=button class='btn btn-primary'><span data-localize=web.close>close</span></button> </div>
+                  <div class=modal-footer> <button id=openPolicy type=button class='btn btn-info' data-dismiss=modal><span data-localize=web.policy>privacy policy</span></button> <button id=privacyClose type=button class='btn btn-primary'><span data-localize=web.close>close</span></button> </div>
                </div>
             </div>
          </div>
