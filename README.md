@@ -16,8 +16,11 @@ just a ixchat for linux or something, yuh<br><br>
 
 Fixed:<br>
 `app/functions/web_gear/EditGroup.php` - "Your Group is not Active please go to Your Email" bruh wtf is this broken ahh text, i fixed it dawg but like why is it all capitalised and shi (it also manages emails)<br>
-`app/functions/web_gear/group/editgroup3.php` - wtf is on with this shit but anyways i fixed it again<br>
-not sure if it will break anything or not so i left it "System problem. Please try later, sorry.(no search)" in `/web_gear/group/Search2.php` line 25
+`app/functions/web_gear/group/editgroup3.php` - wtf is on with this shit but anyways i fixed it again<br><br>
+
+not sure if it will break anything or not so i left it "System problem. Please try later, sorry.(no search)" in `/web_gear/group/Search2.php` line 25<br>
+`app/functions/web_gear/store/Buy2.php` - line 124 has a PayPal fundraiser that doesn't exist anymore<br>
+
 ## Key Sections
 
 ### 1. MySQL Database
