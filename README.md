@@ -4,13 +4,14 @@ just a ixchat for linux or something, yuh<br><br>
 `app/functions/json/xavi/Action.php` - has emojis (named actions for some reason lol)<br>
 `app/functions/Redirect.php` - line 65 is hardcoded twitter and line 83 is hardcoded email
 `app/classes/Core.class.php` - on line 133 for the userdetails it can look up geo of an IP with the service https://ipgeolocation.io<br>
+`app/functions/web_gear/Translate1.php` - on line 79 there is the API for https://php.mk<br>
 `app/classes/Chat.class.php` - lists for games, backs, games, backgrounds, etc<br>
 `‎app/functions/json/lists/GameList.php` - has hardcoded games<br>
 `app/functions/json/translate/src/` - inconsistant file count?? it doesnt really matter as much though, not many people in this audience is not speaking anything other than English (?)<br>
 `/app/functions/panel/LastPower.php` - on line 13 there is an official xat domain, fix it by adding the DOMAIN var thing<br>
 `app/functions/json/xavi/Put.php` tf is this?? there's also Put2.php<br>
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.<br>
-
+`app/functions/web_gear/EditGroup.php` - "Your Group is not Active please go to Your Email" bruh wtf is this broken ahh text, i fixed it dawg but like why is it all capitalised and shi (it also manages emails)
 ## Key Sections
 
 ### 1. MySQL Database
