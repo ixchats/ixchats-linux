@@ -1,0 +1,42 @@
+<?php
+
+
+$array = [
+     '00' => '(granted)A voastră [1dorința|cerința|dorință|cerere] este [2îndeplinită|îndeplinită necondiționat|comanda mea].',
+     '01' => '(granted)Dumneavoastră [1gândiți|visați] puțin dar [2OK|Okay|bine].',
+     '02' => '(granted)O [1ciudată|stranie|neobișnuită|stranie] [2dorință|cerință|dorință|cerere] pe care eu pot să o [3îndeplinesc|acord|permit].',
+     '03' => '(granted)[1Minunată|Uimitoare|Grozavă] dorință! Îndeplinită.',
+     '04' => '(granted)A voastră [1dorința|cerința|dorință|cerere] a fost îndeplinită, vă rugăm să o folosiți [2înțelept|cu grijă|în mod corect|precaut|în beneficiul tuturor].',
+     '05' => '(catch)A voastră [1dorința|cerința|dorință|cerere] va fi îndeplinită [2dar nu pentru ceva timp|dar nu pentru o vreme|dar nu chiar acum|în viitorul îndepărtat|în ceva timp|în cele din urmă|într-o zi].',
+     '06' => '(catch)Acea dorință eu [1nu o pot face|nu o voi face|o voi refuza] dar în schimb veți obține [2ceea ce vă doriți cu adevărat|ceea ce aveți nevoie|ceea ce trebuia să cereți|dorința dumneavoastră secretă].',
+     '07' => '(catch)Pot să îndeplinesc doar [1jumătate|puțin|o parte|un pic] din acea dorință.',
+     '08' => '(catch)Dorința dumneavoastră este [1îndeplinită|îngăduită|acceptabilă|permisă] dar doar pentru [2astăzi|o scurtă perioadă|pentru puțin timp].',
+     '09' => '(catch)Eu [1consider|cred|știu] că veți [2regreta|fi dezamăgit] dar îndeplinit [2la fel|oricum].',
+     '10' => '(evil)Dorința dumneavoastră este îndeplinită dar nu o să [1vă facă fericit|vă aducă bucurie|fie tot ceea ce ați vrut să fie].',
+     '11' => '(evil)Dorința dumneavoastră a fost împlinită dar vă veți transforma în [1broască|maimuță|praf|dovleac|pisică|câine|șoarece|șopârlă|robot|statuie].',
+     '12' => '(evil)[1OK|Okay|În regulă|Aprobat|Bine|Autorizat|Acceptabil], dar ar trebui să fiți [2atent|prudent|neliniștit] la ceea ce vă doriți.',
+     '13' => '(refused)Dorința dumneavoastră este departe de [1aptitudinea|îndemânarea|puterea|capacitatea|abilitatea|posibilitatea] mea.',
+     '14' => '(refused)Puteți să vă gândiți la ceva mai [1bun|mișto|ambițios|măreț] decât acest lucru.',
+     '15' => '(refused)[1Nicio afacere|În niciun caz|Nicio șansă|Pffft]! [2Încercați o|Ați avea mai mult noroc cu] [3fântână a dorințelor|tort|stea căzătoare|iadeș|curcubeu].',
+     '16' => '(refused)[1Îmi pare rău|Scuze|Regretabil], nu mai am dorințe pentru [2astăzi|acum|un timp].',
+     '17' => '(refused)(grant)Eu pot să [1îndeplinesc|acord|permit] acea [2dorință|cerere|dorință|necesitate] dar aceasta ar conduce la [3dezastru|calamitate|catastrofă|eșec|daună|tragedie|belea|distrugere].',
+     '18' => '(no)Îmi [1place|iubesc|respect|admir|aprob] acea dorință, dar [nu|nicio șansă|nah].',
+     '19' => '(no)Puteți [1obține|realiza|atinge|produce|lua] acest lucru [2de unul singur|de unul singur|fără mine].',
+     '20' => '(no)[1Nu|Niciodată nu|Nu] [2o să se|se va] întâmpla [3amice|amigo|tovarășe|prietene|tovarășe|frate|tovarășe]!',
+     '21' => '(no)Dacă ați fi cerut acest lucru [1ieri|săptămâna trecută], [2aș|poate aș|s-ar putea să] fi capabil să vă ajut.',
+     '22' => '(no)Știți că nu pot [1îndeplini|permite|autoriza] acest lucru.',
+     '23' => '(no)Nu mai aveți dorințe!',
+     '24' => '(angry)Ați cerut [1prea mult|mai mult decât este posibil|mai mult decât îmi permit], deci dumneavoastră obțineți [2nimic|zip|absolut nimic].',
+     '25' => '(angry)Nu [1vă pierdeți timpul|mă deranjați] cu [2lucruri mărunte|prostii|tâmpenii] ca acestea.',
+     '26' => '(angry)Dumneavoastră [1m-ați trezit|m-ați deranjat|m-ați chemat|m-ați convocat] pentru a întreba asta!',
+     '27' => '(angry)Puteți să [1vă doriți|cereți|solicitați|revendicați] orice și asta este ceea ce doriți?',
+     '28' => '(angry)Încetați să vă doriți toată viața și duceți-vă să faceți ceva!',
+     '29' => '(angry)Ce [1prostească|stupidă|prostească|stupidă|absurdă|ieftină] [2dorință|solicitare|dorință|cerere]!',
+     '30' => '(wisdom)În schimb, ofer [1înțelepciune|sfaturi|adevăr]. [2Niciodată nu mâncați zăpadă galbenă|Nu dați vrabia din mână pe cioara de pe gard|Celor neînțelepți li se scurg banii printre degete|Prietenul la nevoie se cunoaște].',
+     '31' => '(wisdom)Știind că [1o treabă care merită făcută, merită făcută bine|un pic de cunoștință este un lucru periculos|peștele de la cap se impune|paza bună trece primejdia rea], vă va servi mai bine.',
+     '32' => '(wisdom)Nu [1aveți nevoie de|vreți] acest lucru, țineți minte [2cu răbdarea treceți și marea|visele neîmplinite hrănesc marile pasiuni|fiți recunoscător pentru ceea ce aveți|leneșul mai mult aleargă].',
+     '33' => '(wisdom)Dorințele sunt pentru [1nebuni|pierzători|idioți], tot ceea ce trebuie să știți este că [2trișorii niciodată nu câștigă|nu jucați totul pe-o singură carte|șansa favorizează curajul|cunoașterea este putere].',
+     '34' => '(wisdom)De ce nu [1m-am gândit la|am luat] acest lucru pentru mine.',
+     '35' => '(wisdom)Această dorință este [1una nouă pentru mine|cea mai ciudată pe care mi-a cerut-o cineva|foarte ciudată].'
+	]
+?>
