@@ -15,8 +15,8 @@ not checked in root folder: `js`, `vendor`, and `web_gear`<br>
 `app/functions/json/xavi/Put.php` tf is this?? there's also Put2.php<br>
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.<br>
 `app/functions/web_gear/group/Events2.php` - incomplete code at like 175 "meh too busy to finish it, maybe later"<br>
-`/app/functions/web_gear/user/Profile2.php` - this is still using xat domains!! fix<br>
-`app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)<br>
+`app/functions/web_gear/user/Profile2.php` - this is still using xat domains!! fix<br>
+`app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html), fix by changing all references to https://web.archive.org/web/20041109112915/http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html<br>
 what is the goe html and custom chat sounds at 180.html?? "Gsound"??<br>
 `content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio, tho they're all looking classic so idk about higher quality)<br>
 `/content/web/` - why tf all these exist bro also it has mentions of rxat too im not bothering with that because theres already files with php, is this only for reference? (`content/web/R00036/apps/fourinarow/css/styles.css` - wtf why is it called `styles.css`, call it `style.css`, `content/web/R00036/img/navbar/youtube.svg` - fake youtube logo??)<br>
