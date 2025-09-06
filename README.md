@@ -15,6 +15,7 @@ just a ixchat for linux or something, yuh<br><br>
 `/app/functions/web_gear/user/Profile2.php` - this is still using xat domains!! fix<br>
 `app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)
 what is the goe html and custom chat sounds at 180.html?? "Gsound"??
+
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
 (use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)
 Fixed:<br>
@@ -28,7 +29,7 @@ not sure if it will break anything or not so i left it "System problem. Please t
 `app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com
 
 Progress:
-Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace
+Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me)
 
 Legal:
 `CMS+PANEL/app/views/ChatTerms.php` - Terms of Use
