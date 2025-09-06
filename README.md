@@ -7,7 +7,8 @@ just a ixchat for linux or something, yuh<br><br>
 `app/classes/Chat.class.php` - lists for games, backs, games, backgrounds, etc<br>
 `‎app/functions/json/lists/GameList.php` - has hardcoded games<br>
 `app/functions/json/translate/src/` - inconsistant file count?? it doesnt really matter as much though, not many people in this audience is not speaking anything other than English (?)<br>
-`app/functions/json/xavi/Put.php` tf is this?? there's also Put2.php
+`/app/functions/panel/LastPower.php` - on line 13 there is an official xat domain, fix it by adding the DOMAIN var thing<br>
+`app/functions/json/xavi/Put.php` tf is this?? there's also Put2.php<br>
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.<br>
 
 ## Key Sections
