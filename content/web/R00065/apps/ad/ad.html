@@ -1,0 +1,34 @@
+<!doctype html> <html lang=en-us> <head> <meta charset=UTF-8> <meta http-equiv=Content-Security-Policy content='
+        connect-src &#39;self&#39; https://rxat.ro ;
+        img-src &#39;self&#39; https://rxat.ro https://i0.rxat.ro https://i1.rxat.ro https://s0.rxat.ro https://s1.rxat.ro https://gs.rxat.ro https://images.weserv.nl https://chatsgroup.com/;
+        frame-src &#39;self&#39; https://rxat.ro;
+        base-uri &#39;self&#39;;
+        object-src &#39;none&#39;;
+        form-action &#39;none&#39;;'> <meta name=viewport content='width=device-width,initial-scale=1'> <meta http-equiv=Content-Type content='text/html; charset=utf-8'> <title>Powers ad | xat</title> <link rel=stylesheet href=../../box/www/normalize.css> <link rel=stylesheet href=../../box/www/platform.css> <link rel=stylesheet href=../../box/www/xat.css> <link rel=stylesheet href=ad.css> <script src=../../box/www/xat.js></script> <script src=ad.js></script> </head> <body> <div id=wrapper class=wrapper> <div id=contentWrapper></div> <div class=textWrapper> <div class=textHolder> <div id=text1 class=text></div> <div id=text2 class='text right'></div> </div> </div> </div>  <script> (function() { 'use strict';
+            Animated = 's';
+            LineVisible = true;
+
+            let configURL = "https://rxat.ro/json/ad.php";
+            let advertsUrl = "https://rxat.ro/json/adverts.php";
+            let pow2URL = "https://rxat.ro/web_gear/chat/pow2.php";
+
+
+            document.addEventListener("DOMContentLoaded", () => {
+                loadJSON(pow2URL, pow2 => {
+                    let ad = null;
+                    let pow2Obj = {};
+                    let date = new Date();
+                    var time = (date.getTime() + 30000) / 60000;
+
+                    pow2.forEach(pow => {
+                        pow2Obj[pow[0]] = pow[1];
+                    });
+
+                    loadJSON(`${advertsUrl}?c=${time}`, adverts => {
+                        loadJSON(`${configURL}?c=${time}`, config => {
+                            ad = new Ad(pow2Obj, adverts, config);
+                        });
+                    });
+                });
+            });
+        }()); </script> 
