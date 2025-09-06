@@ -30,7 +30,7 @@ i fking give up on adding the files to R00064 lol<br>
 
 Fixed:<br>
 <s>`app/functions/app/functionsweb_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority</s> <b>wtf is https://xat.com/web_gear/chat/gift1.php</b><br>
-(use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)<br>
+(use `<?php echo XAT_NAME ?>` and `<?php echo DOMAIN ?>`)<br>
 `app/functions/web_gear/EditGroup.php` - "Your Group is not Active please go to Your Email" bruh wtf is this broken ahh text, i fixed it dawg but like why is it all capitalised and shi (it also manages emails)<br>
 `app/functions/web_gear/group/editgroup3.php` - wtf is on with this shit but anyways i fixed it again<br><br>
 `app/goe/js/200.js` - line 1 had a space for some odd reason<br>
