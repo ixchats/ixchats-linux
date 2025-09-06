@@ -24,6 +24,7 @@ i fking give up on adding the files to R00064 lol<br>
 `content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!<br>
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
 (use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)<br>
+`css/profile.css` - it uses a imgur link<br>
 
 Fixed:<br>
 `app/functions/web_gear/EditGroup.php` - "Your Group is not Active please go to Your Email" bruh wtf is this broken ahh text, i fixed it dawg but like why is it all capitalised and shi (it also manages emails)<br>
