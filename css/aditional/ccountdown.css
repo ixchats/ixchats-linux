@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+#days {
+  font-family: 'Cookie', cursive;
+  font-size: 50px;
+  color: #FFF;
+  text-align: center;
+}
+
+.drop {
+	position: absolute;
+	top: 0;	
+ 	opacity: 0;
+}
+.snow {
+	height: 8px;
+	width: 8px;
+	border-radius: 100%;
+	background-color: #fff;
+  box-shadow: 0 0 10px #fff
+}
+
+
+.animate {
+	animation: falling 8.5s infinite ease-in;	
+}
+
+
+@keyframes falling {
+	0% {top: 0; opacity: 1;}
+	100% {top: 1500px; opacity: 0}
+}

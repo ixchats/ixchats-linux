@@ -1,0 +1,21 @@
+/* smallprint
+-------------------------------------------------- */
+
+.smallprint_page .section_header {
+	margin-top: 0px;
+}
+.smallprint_page h3.intro {
+	color: #282F39;
+	text-align: center;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 32px;
+	width: 83%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.smallprint_page h4 {
+	margin-top: 30px;
+}
+
