@@ -27,6 +27,7 @@ Other:<br>
 not sure if it will break anything or not so i left it "System problem. Please try later, sorry.(no search)" in `/web_gear/group/Search2.php` line 25<br>
 `app/functions/web_gear/store/Buy2.php` - line 124 has a PayPal fundraiser that doesn't exist anymore<br>
 `app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com
+`app/views/layout/classic/src/footer/foot.php` - uses weserv.nl which is a image cache and resize service, using Cloudflare CDN
 
 why tf is `app/views/terms.php` the only thing to include https://rxat.wiki/? lol
 Progress:
