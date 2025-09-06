@@ -28,12 +28,15 @@ not sure if it will break anything or not so i left it "System problem. Please t
 `app/functions/web_gear/store/Buy2.php` - line 124 has a PayPal fundraiser that doesn't exist anymore<br>
 `app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com
 
+why tf is `app/views/terms.php` the only thing to include https://rxat.wiki/? lol
 Progress:
 Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me but basically all CSP's in the views folder is like that)
 
 Legal:
 `app/views/ChatTerms.php` - Terms of Use
 > Also stored in: `app/views/maintenance.php`
+> Also stored in: `apps/views/terms.php`
+`app/views/Privacy.php` - Privacy Policy
 
 ## Key Sections
 
