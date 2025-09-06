@@ -1,0 +1,1 @@
+self.addEventListener("install",(function(e){e.waitUntil(caches.open("neox4t-store").then((function(e){return e.addAll(["/app1/","/app1/index.php","/app1/index.js","/app1/style.css"])})))})),self.addEventListener("fetch",(function(e){console.log(e.request.url),e.respondWith(caches.match(e.request).then((function(t){return t||fetch(e.request)})))}));
