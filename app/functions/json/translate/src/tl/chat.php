@@ -1,0 +1,163 @@
+<?php
+$array = [
+     'creategroup' => 'Gumawa ng grupo',
+     'badpass' => 'Mali ang room password.',
+     'modrules' => 'baguhin upang maging akma sa patakaran',
+     'access' => 'access the existing groups here',
+     'yourname' => 'Iyong pangalan:',
+     'desc' => 'Paglalarawan ng Grupo:',
+     'let2050' => '(20-50 letra)',
+     'grt6' => 'Hindi bababa ng 6 na letra, sensitibo sa case - HUWAG IBABAHAGI (ang passwrod ay para sa pag edit ng grupo lamang)',
+     'noshare' => 'HUWAG IBAHAGI',
+     'passonly' => '(ang password ay para sa pag edit ng grupo lamang)',
+     'tags' => 'Tags:',
+     'sepcom' => '(Nakahiwalay sa pamamagitan ng mga kuwit)',
+     'taginfo' => 'Ang Tags ay keyword na naglalarawan sa iyong grupo upang makita ito ng iba. Hal. ang isang grupo para sa pagkakarera ay maaaring i-tag ang: karera,nascar,car. Kung ito ay hindi Ingles ang user ay kinakailangan ilagay ang lenggwahe, hal. French.',
+     'mustvalid' => 'ANG EMAIL AY KINAKAILANGANG WASTO UPANG MA-ACTIVATE ANG IYONG GRUPO.',
+     'grpres' => 'naka reserba ang pangalan ng grupo',
+     'grpexist' => 'ang pangalan ng grupo ay mayroon na',
+     'urlinfo' => 'Opsyonal - Address ng web page na magtatampok ng pagtatampok/promosyon ng grupo',
+     'grpac1' => '<p>Salamat, ang iyong group application ay na-proseso. <br /> 
+Isang kumpirmasyon sa email ay ipinadala. Kinakailangang i-click ang link na nasa email
+para ma-activate ang iyong grupo.</p>
+<p><strong>Paalala kung hindi ka nakatanggap ng email, tigan ang iyong spam inbox.</strong></p>
+<p><strong>(ang email ay maaaring umabot ng 30 minutos bago dumating)</strong></p>
+<p>Kung hindi mo mahanap ang iyong email ay kinakailangan mong muli mag reapply gamit ang iyong email provider na gumagana. Subukan ang <a href="https://gmail.com">Gmail</a> account. Kung ang iyong email provider ay hindi pinapadala ang aming mga email ay hindi mo mapapatakbo ang iyong chat.</p>',
+     'grpac2' => 'Mangyaring i-activate ang '.XAT_NAME.' chat na grupo:%s',
+     'grpac3' => 'Hello %s,
+
+I-click ang link sa ibaba para ma-activate ang iyong %s grupo at maging owner:
+
+%s
+
+(N.B. ang pangalan ay hindi naka reserba at ang grupo ay hindi aktibo hangga’t hindi mo pinipindot ang link na ito)
+
+Isa pang email ang ipapadala bilang pagkukumpirma sa pagkaka activate.',
+     'grpinfo' => 'Ang Chat Groups ay isang chat room na may tiyak na layunin. Maaaring ito ay upang talakayin ang isang partikular na paksa (hal. musika, anime, computer games), para sa isang tiyak na pangkat ng edad o uri ng tao (hal 20 anyos, estudyante) o isang tiyak na bansa/ lenggwahe. Maaaring <a href="//'.DOMAIN.'/groups">ma-access ang mga umiiral na grupo dito</a>',
+     'az' => 'A-Za-z0-9_ lamang hal: EmoPlace',
+     'grpwarn' => '<p>Ang iyong grupo ay maaaring maalis ng walang babala o susog kung:</p>
+<p>Hindi ka nag bigay ng valid na email address<br>
+ Kung ang pangalan ng grupo ay hindi naaangkop (tignan ang <a href="//'.DOMAIN.'/terms" target="_blank">Mga Palatuntunan</a>)<br>
+ Ang grupo ay hindi nagagamit o walang moderator</p>',
+     'iam14' => 'Ako ay 14 taong gulang o mas matanda pa at sumasangayon sa <a href="//'.DOMAIN.'/terms" target="_blank">Mga Palatuntunan</a>',
+     'sendfbk' => 'Magpadala ng feedback sa chat group owner',
+     'contact' => 'Kung gusto mong kontakin ang owner ng %s na grupo ay maaari mong gawin dito. Ang owners ay hindi obligadong sagutin ang email ngunit sila ay tiyak na hindi kung hindi ka nagbigay ng wastong email address',
+     'grpmess1' => ''.XAT_NAME.' group: %s - Mensahe',
+     'grpmes2' => 'Hello %s ay isang ibisita sa iyong %s na chat group ay pinindot ang Message button at nagpadala sa iyo ng mga sumusunod na mensahe. (PINAPAYONG HUWAG MAG CLICK SA MGA LINKS)',
+     'noemail' => 'Ang user ay hindi nagbigay ng kanilang email address',
+     'thxsent' => 'Salamat. Ang iyong mensahe ay naipadala',
+     'optemail' => 'Opsyonal pero hindi ka magkakaroon ng sagot kung hindi ito wasto',
+     'message' => 'Mensahe',
+     'send' => 'Padala',
+     'grpmess2' => 'Hello %s ay isang ibisita sa iyong %s na chat group ay pinindot ang Message button at nagpadala sa iyo ng mga sumusunod na mensahe. (PINAPAYONG HUWAG MAG CLICK SA MGA LINKS)',
+     'reportgrp' => 'Mag report ng hindi angkop na chat',
+     'plzsel' => 'Mangyaring pumili...',
+     'badlang' => 'Nakakasakit na wika',
+     'scamming' => 'Scamming, Phishing o Hacking',
+     'badimg' => 'Hindi akmang Imahe o Video',
+     'bully' => 'Harassment, Cyberbullying, Impostor',
+     'unwanted' => 'Hindi gustong contact',
+     'otherissue' => 'Iba pang mga paglabag sa tuntunin (Mangyaring tukuyin)',
+     'readcare' => 'Importante: Mangyaring basahing maigi bago mag sumite ng "Inappropriate"',
+     'mustsel' => 'kailangan mong piliin ang kaugnay sa kategorya',
+     'bademail' => 'email ay hindi valid',
+     'mustchars' => 'hindi bababa sa 8 na titik',
+     'complaint' => 'Reklamo:',
+     'bedetailed' => '(Mangyaring maging detalyado hangga’t maaari upang higit ka pa naming matulungan sa iyong ulat)',
+     'nonotify' => 'Ikaw ay hindi maaaring ma-notify sa resulat ng report o anumang pagkilos na ginawa.',
+     'repimg' => 'I-report ang imahe',
+     'canreport' => 'Maaari kang mag-ulat ng isang bagay na hindi naaangkop kung ito ay lumalabag sa aming <a href="//'.DOMAIN.'/terms.html">Tuntunin ng Serbisyo</a>. Kung ikaw ay naniniwala na ang isang bagay ay hindi naaangkop, mangyaring gamitin ang kahon sa ibaba at sabihin sa amin kung bakit. Gayunman, ang '.XAT_NAME.' ay hindi tutulong upang maresolba ang hindi pagkakaunawaan sa pagitan ng users. Mangyaring wag mag report nang walang magandang dahilan, kung gagawin ito ng paulit-ulit ay maaari kang ma-block sa pag gamit ng aming serbisyo.',
+     'addinfo' => 'Karagdagang Impormasyon:<br>
+(Mangyaring maging detalyado hangga’t maaari upang higit ka pa naming matulungan sa iyong ulat)',
+     'reportpro' => 'Magsumbong ng hindi naaangkop na '.XAT_NAME.'.me profile',
+     'repuser' => 'Isumbong ang user',
+     'grpknown' => 'Grupo (kung kilala)',
+     'postcom' => 'Maglagay ng komento',
+     'todelete' => 'Kinakailangang ikaw ay owner bago makapag bura ng komento',
+     'topost' => 'Kinakailangang ikaw ay miyembro bago makapag komento',
+     'confdel' => 'Kinukumpirang burahin ang komento',
+     'typecom' => 'Ilagay ang iyong komento dito. Maaari kang gumamit ng simpleng HTML at imahe. (May limit na 5000 bytes)',
+     'delcom' => 'Burahin ang komento',
+     'savcom' => 'I-save ang komento',
+     'activategrp' => 'I-activate ang bagong chat group',
+     'expired' => 'Ang iyong group application ay lumipas. Maaaring subukang muli.',
+     'already' => 'Ang grupo ay aktibo na',
+     'taken' => 'Paumahin, ang grupo ay nakuha na. Maaari kang sumubok muli ng panibagong pangalan ng grupo.',
+     'activated' => 'Ang iyong grupo ay aktibo na! Tignan ang email para sa detalye. Ang address ng iyong grupo ay:',
+     'grpok1' => 'Aktibasyon ng '.XAT_NAME.' group %s ay kompleto na',
+     'grpok2' => 'Hello %s,
+
+Ang iyong chat group: %s ay activated na.
+Ang link ng iyong grupo ay: %s
+
+Para ma-edit ang %s chat group pindutin ang ’Edit’ button sa kanang ilalim bahagi at ilagay ang password. Para makuhang muli ang iyong owner status kung ito’y ay nawala pindutin ang ’Edit Your Chat’ button.
+
+Kung ang grupo ay hindi sumusunod sa Tuntunin ng Serbisyo %s o ito ay hindi aktibo ay maaaring susugan o burahin. Ang mga indibidwal ay responsable para sa mga materyal na inilagay sa chat box pero ang group moderators ay dapat gawin ang kanilang makakaya para masigurado na ang inyong mga users ay sumusunod sa Tuntunin ng Serbisyo.
+
+I-enjoy ang iyong chat at good luck!
+
+xat',
+     'seachchat' => 'Hanapin ang chat',
+     'searchinfo' => 'Pribadong Chats, Pribadong Mensahe, Pang-miyembero lamang, Huwag ilista at Huwag i-store ay hindi MAHAHANAP. <a href="//util.'.DOMAIN.'/wiki/index.php?title=Special:MyLanguage/Search">Karagdagang Impormasyon</a>',
+     'moreinfo' => 'Karagdagang Impormasyon.',
+     'nores' => 'Paumahin, walang resulta',
+     'moreresults' => 'Pinadaming resulta',
+     'minsago' => 'minutong nakakalipas sa',
+     'hoursago' => 'oras na nakakalipas sa',
+     'searchingfor' => 'Paghahanap sa:',
+     'results' => 'Resulta',
+     'search' => 'Search',
+     'mustbe' => 'dapat na hindi bababa',
+     'letters' => 'letra',
+     'unfair' => 'Hindi patas na pag-ban',
+     'noctrl' => 'Promosyon: Hindi angkop o Walang kontrol',
+     'addcom' => 'Magdagdag ng Komento',
+     'dispcom' => 'Paglalagay ng comment',
+     'delete' => 'burahin',
+     'news' => 'Balita',
+     'events' => 'Events',
+     'inapp' => 'hindi akma',
+     'comments' => 'komento',
+     'grid' => 'grid',
+     'player' => 'player',
+     'doodle' => 'doodle',
+     'translate' => 'pagsalin',
+     'games' => 'games',
+     'apps' => 'apps',
+     'embed' => 'Embed',
+     'chglang' => 'Palitan ang Lenggwahe',
+     'sellang' => 'Pumili ng lenggwahe:',
+     'eventsfor' => 'Chat events para sa',
+     'oldres' => 'Lumang resulta',
+     'duration' => 'Tagal',
+     'text' => 'Teksto',
+     'canevents' => 'Maaaring mahanap ang chat events (tignan sa <a href="//util.'.DOMAIN.'/wiki/index.php?title=Special:MyLanguage/Events">wiki</a>)',
+     'all' => 'Lahat',
+     'time' => 'Oras',
+     'emailsent' => 'Naipadala sa email',
+     'needlogin' => 'Mangyaring mag <a href="//'.DOMAIN.'/login">login</a> para magamit ang pahina.',
+     'needevents' => 'Paumahin, kinakailangan ng events na power para magamit ang pahina.',
+     'nodays' => 'Paumahin, ikaw ay naubusan ng days.',
+     'continue' => 'Magpatuloy',
+     'name' => 'Pangalan',
+     'grassmod' => 'Isumbong ang moderator',
+     'feelunfair' => 'Kung sa tingin mo ay ikaw ay hindi tinatrato ng patas ng moderator ay maaari mo silang i-report sa owner ng grupo. Ang owner ay hindi obligadong sagutin ang emails pero tiyak na hindi sila makakasagot kung hindi ka nagbigay ng wastong email address.',
+     'modrpt1' => ''.XAT_NAME.' group: %s - Moderator report',
+     'modrpt2' => 'Hello %s Ikaw ay nakatanggap ng report tungkol sa iyong moderator sa iyong grupo',
+     'modrpt3' => 'I-click dito: %s para makita ang transcript ng kaganapan',
+     'transcript' => 'Chat transcript',
+     'youneed' => '<p>Kinakailangang siguraduhin na ang iyong moderators ay gumagawa ng magandang trabaho at maging patas sa iyong mga bisita. Inaabot lamang ng isang hindi magandang mod para masira ang chat box. Kung ang mods ay isang magandang ehemplo sa iyong chat box, ito ay mas dadami at magiging sikat.</p><p>Mangyaring suriin ang reklamo sa hindi patas na pagkaka ban at kung hindi naging masaya dito, kausapin ang moderator tungkol sa iyong inaalala o alisin sila bilang mod.</p>',
+     'banby' => 'ay binan ni',
+     'clkunmod' => 'I-click para alisin bilang mod',
+     'unfriendly' => '<p>Tandaan: Ang iyong grupo at maaaring ma de-list kung ikaw o ang iyong mga mods ay hindi pala-kaibigan. i.e ito ay hindi lalabas sa group list o popular list ng '.XAT_NAME.' o sa chat box.</p>',
+     'transno' => 'Ang transcript ay hindi umiiral. Ito ay maaaring binura. Ito ay tinago ng isang linggo.',
+     'unmod' => 'De-mod moderator',
+     'yesunmod' => 'Yes - De-mod',
+     'sureunmod' => 'Sigurado ka bang gusto mong alisin sa pagka-mod',
+     'chatconf' => 'Mangyaring ikumpirma ang ginawang bisita sa chat box',
+     'tounmod' => 'I-click ang link sa taas para alisin sa pagiging mod',
+     'istrans' => 'Sa ibaba ay ang transcript ng mga mensahe na humantong sa ban',
+     'chatid' => 'Chat id:',
+     'seeall' => 'Maaari mong makita ang mga imahe sa grupo dito at madaling masusumbong ang kahit anong hindi angkop sa image host.'	 
+	 ]
+?>
