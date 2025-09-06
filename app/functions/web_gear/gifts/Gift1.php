@@ -13,7 +13,8 @@ class Gift1 {
 			return;
 		}
 		Header::set('application/json');
-		$source = Curl::getHttps('https://xat.com/web_gear/chat/gift1.php');
+		$source = Curl::getHttps('https://<?php echo DOMAIN ?>/web_gear/chat/gift1.php');
 		return View::plain($source);
 	}
+
 }
