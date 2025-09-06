@@ -1,0 +1,21 @@
+@import url(../scripts/style/innova.css);
+/* ezg */
+body,td,p{vertical-align:top;}
+body,td,pre{background: #F3F3F3;font-size:13px !important;font-family:verdana, geneva, arial, helvetica, sans-serif !important;color:#2b2d37 !important;color:#2b2d37 !important;}
+a,a:link,a:visited{font: 13px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#07568e;}
+.sub{font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+.L{font: 15px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+.XL{font: 16px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+.XXL{font: 19px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+h1,h1 a{font: bold 19px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+h2,h2 a{font: bold 16px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+h3,h3 a{font: bold 15px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+h4,h4 a{font: 13px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+h5,h5 a{font: bold 11px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+h6,h6 a{font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;color:#2b2d37;}
+.multibox{}
+
+/* ezg-end */
+
+
+      
