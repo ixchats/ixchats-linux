@@ -1,0 +1,163 @@
+<?php
+$array = [
+     'creategroup' => 'Créer un groupe',
+     'badpass' => 'Erreur du mot de passe du groupe.',
+     'modrules' => 'modifié pour s’adapter aux règles',
+     'access' => 'access the existing groups here',
+     'yourname' => 'Votre nom :',
+     'desc' => 'Description du groupe :',
+     'let2050' => '(20-50 lettres)',
+     'grt6' => 'Au moins 6 lettres, sensible à la casse - A NE PAS PARTAGER (Le mot de passe sert uniquement à éditer le groupe)',
+     'noshare' => 'A NE PAS PARTAGER',
+     'passonly' => '(Le mot de passe sert uniquement à éditer le groupe)',
+     'tags' => 'Tags :',
+     'sepcom' => '(Séparés par des virgules)',
+     'taginfo' => 'Les tags sont des mots-clés qui décrivent votre groupe afin que d’autres utilisateurs puissent le trouver. Par exemple, pour un groupe de courses de voitures, les tags pourraient être : course,tunning,voiture. Si le public visé n’est pas français, choisissez la langue de vos tags.',
+     'mustvalid' => 'L’ADRESSE EMAIL DOIT ETRE VALIDE POUR ACTIVER VOTRE GROUPE.',
+     'grpres' => 'Ce nom de groupe est réservé',
+     'grpexist' => 'Ce nom de groupe existe déjà',
+     'urlinfo' => 'Optionnel - L’adresse url de la page web liée à votre groupe',
+     'grpac1' => '<p>Merci, la demande de création de votre groupe a été traitée. <br /> 
+Un email de confirmation a été envoyé. Vous devez maintenant cliquer sur le lien que vous recevrez dans cet email 
+pour activer votre groupe.</p>
+<p><strong>N.B. Si vous ne recevez pas cet email, vérifiez dans vos courriers indésirables.</strong></p>
+<p><strong>(l’email peut mettre jusqu’à 30 minutes pour arriver)</strong></p>
+<p>Si vous ne pouvez toujours pas accéder à l’email, vous devrez probablement refaire une demande de création en utilisant un service mail qui fonctionne. Nous vous conseillons d’essayer d’utiliser <a href="https://gmail.com">Gmail</a>. Si votre service mail ne délivre pas nos emails vous ne serez pas en mesure de créer votre chat.</p>',
+     'grpac2' => 'Nous vous prions d’activer votre groupe de chat '.XAT_NAME.' :%s',
+     'grpac3' => 'Bonjour %s,
+
+Cliquez sur le lien ci-dessous pour activer votre groupe %s et en devenir propriétaire :
+
+%s
+
+(N.B. tant que vous n’avez pas cliqué sur le lien le nom n’est pas réservé et le groupe pas activé)
+
+Un autre email sera envoyé pour confirmer l’activation de votre groupe.',
+     'grpinfo' => 'Les Groupes de Chat sont des chats publics. Ils peuvent être créés dans le but de discuter d’un sujet en particulier (exemple : la musique, les animes, les jeux vidéos), pour un groupe d’âge spécifique ou un type de personne (exemple : jeunes adultes, étudiants) ou pour un pays ou une langue spécifique. Vous pouvez <a href="//'.DOMAIN.'/groups">accéder aux groupe existants ici</a>',
+     'az' => 'A-Za-z0-9_ seulement exemple : EmoPlace',
+     'grpwarn' => '<p>Votre groupe peut être supprimé sans avertissement ou modifié si :</p>
+<p>Vous ne fournissez pas une adresse email valide<br>
+ Le nom du groupe est inapproprié (voir les <a href="//'.DOMAIN.'/terms" target="_blank">Conditions Générales d’Utilisation</a>)<br>
+ Le groupe n’est pas utilisé ou n’est pas modéré</p>',
+     'iam14' => 'J’ai 14 ans ou plus et j’accepte les <a href="//'.DOMAIN.'/terms" target="_blank">Conditions Générales d’Utilisation</a>',
+     'sendfbk' => 'Envoyez vos ressentiments à propos du groupe à son propriétaire',
+     'contact' => 'Si vous souhaitez contacter le propriétaire du groupe %s , vous pouvez le faire ici. Les propriétaires ne sont pas obligés de répondre aux emails, et ils ne le feront certainement pas si vous ne donnez pas une adresse email valide',
+     'grpmess1' => 'groupe '.XAT_NAME.' : %s - Message',
+     'grpmes2' => 'Bonjour %s Un visiteur de votre chat %s a cliqué sur le bouton Message et vous a envoyé le message suivant. (VOUS ÊTES PRIÉ DE NE PAS CLIQUER SUR LES LIENS).',
+     'noemail' => 'L’utilisateur n’a pas fourni son adresse email',
+     'thxsent' => 'Merci. Votre message a été envoyé',
+     'optemail' => 'Optionnelle, mais vous ne serez pas tenu au courant si elle est invalide',
+     'message' => 'Message',
+     'send' => 'Envoyer',
+     'grpmess2' => 'Bonjour %s Un visiteur de votre chat %s a cliqué sur le bouton Message et vous a envoyé le message suivant. (VOUS ÊTES PRIÉ DE NE PAS CLIQUER SUR LES LIENS).',
+     'reportgrp' => 'Signaler un chat inapproprié',
+     'plzsel' => 'Veuillez sélectionner...',
+     'badlang' => 'Langage Agressif',
+     'scamming' => 'Arnaque, Hameçonnage ou Piratage',
+     'badimg' => 'Images ou Vidéos Inapropriées',
+     'bully' => 'Harcèlement, Cyberbulling, Usurpation',
+     'unwanted' => 'Contact indésirable',
+     'otherissue' => 'Autres violations des Conditions Générales (veuillez préciser)',
+     'readcare' => 'Important : Nous vous prions de lire attentivement avant de soumettre un "Signalement"',
+     'mustsel' => 'vous devez sélectionner la catégorie concernée',
+     'bademail' => 'email invalide',
+     'mustchars' => 'doit être d’au moins 8 lettres',
+     'complaint' => 'Signalement :',
+     'bedetailed' => '(Nous vous prions d’être aussi descriptif que possible pour nous aider avec votre signalement)',
+     'nonotify' => 'Il est possible que vous ne soyez pas averti du résultat ou des actions prises suite à votre signalement.',
+     'repimg' => 'Signaler des images',
+     'canreport' => 'Vous pouvez émettre un signalement de quelque chose inapproprié s’il y a violation de nos <a href="//'.DOMAIN.'/terms.html">Conditions Générales d’Utilisation</a>. Si vous pensez que quelque chose est autrement inapproprié, nous vous prions d’utiliser la case ci-dessous pour nous en donner les raisons. Cependant, '.XAT_NAME.' n’aidera en aucun cas à résoudre les conflits entre utilisateurs. Nous vous prions de ne pas émettre de signalements sans bonne raison, si vous le faites de manière trop répétitive, vous serez bloqué de nos services.',
+     'addinfo' => 'Renseignements supplémentaires :<br>
+(Nous vous prions d’être aussi descriptif que possible pour nous aider avec votre signalement)',
+     'reportpro' => 'Signaler un profil '.XAT_NAME.'.me inappropriée',
+     'repuser' => 'Signaler un utilisateur',
+     'grpknown' => 'Groupe (si connu)',
+     'postcom' => 'Poster un commentaire',
+     'todelete' => 'Vous devez être propriétaire pour supprimer un commentaire',
+     'topost' => 'Vous devez être membre pour poster un commentaire',
+     'confdel' => 'Confirmer la suppression du commentaire',
+     'typecom' => 'Tapez votre commentaire ici. Vous pouvez utiliser du code HTML simple et des images. (Limite de 5000 octets)',
+     'delcom' => 'Supprimer un commentaire',
+     'savcom' => 'Enregistrer un commentaire',
+     'activategrp' => 'Activer un nouveau groupe de chat',
+     'expired' => 'Votre demande d’activation de groupe est expirée. Vous pouvez essayer de nouveau.',
+     'already' => 'Ce groupe a déjà été activé.',
+     'taken' => 'Désolé, ce groupe a déjà été pris. Vous pouvez essayer de nouveau avec un autre nom de groupe.',
+     'activated' => 'Votre groupe est désormais activé ! Regardez vos emails pour plus de détails. L’adresse de votre groupe est :',
+     'grpok1' => 'L’activation du groupe '.XAT_NAME.' %s est terminée',
+     'grpok2' => 'Bonjour %s,
+
+Votre groupe de chat : %s a été activé.
+Le lien pour accèder à votre chat est : %s
+
+Pour éditer votre chat %s appuyez sur le bouton ’Edit’ en bas à droite et entrez votre mot de passe. Pour récupérer votre statut de propriétaire (si vous l’avez perdu), cliquez sur le bouton ’Éditez votre Chat’.
+
+Si le groupe ne respecte pas les Conditions Générales d’Utilisation %s ou est inactif, il pourra être modifié ou supprimé. Chacun est responsable du contenu qu’il poste sur le chat mais les modérateurs du groupe devront faire de leur possible pour assurer le respect des Conditions Générales d’Utilisation.
+
+Profitez de votre chat et bonne chance !
+
+'.XAT_NAME.'',
+     'seachchat' => 'Rechercher le chat',
+     'searchinfo' => 'Les discussions privées, les messages privés, les chats pour membres uniquement, les chats non listés et les chats qui ne stockent pas les messages sont IMPOSSIBLES à chercher. <a href="//util.'.DOMAIN.'/wiki/index.php?title=Special:MyLanguage/Search">Plus d’information</a>',
+     'moreinfo' => 'Plus d’information.',
+     'nores' => 'Désolé, pas de résultat',
+     'moreresults' => 'Plus de résultats',
+     'minsago' => 'minutes auparavant sur',
+     'hoursago' => 'heures auparavant sur',
+     'searchingfor' => 'Recherche de :',
+     'results' => 'Résultats',
+     'search' => 'Rechercher',
+     'mustbe' => 'doit être au moins',
+     'letters' => 'lettres',
+     'unfair' => 'Ban injuste',
+     'noctrl' => 'Promotion : Inapproprié ou Hors de Contrôle',
+     'addcom' => 'Ajouter un commentaire',
+     'dispcom' => 'Afficher les commentaires',
+     'delete' => 'supprimer',
+     'news' => 'News',
+     'events' => 'Évents',
+     'inapp' => 'inapproprié',
+     'comments' => 'Commentaires',
+     'grid' => 'grille',
+     'player' => 'lecteur',
+     'doodle' => 'doodle',
+     'translate' => 'traducteur',
+     'games' => 'jeux',
+     'apps' => 'apps',
+     'embed' => 'Intégrer',
+     'chglang' => 'Changer de langue',
+     'sellang' => 'Sélectionnez votre langue :',
+     'eventsfor' => 'Événements du chat',
+     'oldres' => 'Anciens résultats',
+     'duration' => 'Durée',
+     'text' => 'Texte',
+     'canevents' => 'Vous pouvez rechercher les événements du chat (voir le <a href="//util.'.DOMAIN.'/wiki/index.php?title=Special:MyLanguage/Events">wiki</a>)',
+     'all' => 'Tous',
+     'time' => 'Heure',
+     'emailsent' => 'Email envoyé',
+     'needlogin' => 'Veuillez vous <a href="//'.DOMAIN.'/login">connecter</a> pour utiliser cette page.',
+     'needevents' => 'Désolé, vous devez avoir le pouvoir events pour utiliser cette page.',
+     'nodays' => 'Désolé, vous n’avez plus de jours.',
+     'continue' => 'Continuer',
+     'name' => 'Nom',
+     'grassmod' => 'Signaler un modérateur',
+     'feelunfair' => 'Si vous sentez que vous avez été traité injustement par un modérateur vous pouvez le signaler au propriétaire du groupe. Les propriétaires ne sont pas obligés de répondre aux emails, et ils ne le feront certainement pas si vous ne fournissez pas une adresse email valide.',
+     'modrpt1' => 'groupe '.XAT_NAME.' : %s - Signalement d’un modérateur',
+     'modrpt2' => 'Bonjour %s Vous avez reçu ce signalement au sujet d’un modérateur de votre groupe',
+     'modrpt3' => 'Cliquez ici : %s pour voir une retranscription des événements.',
+     'transcript' => 'Retranscription du chat',
+     'youneed' => '<p>Vous devez vous assurer que vos modérateurs sont justes et font du bon travail. Un seul mauvais modérateur suffit à ruiner un chat. A l’opposé, si vos modérateurs sont bons, votre chat deviendra facilement populaire.</p><p>Nous vous prions d’examiner ce signalement de bannissement injuste. Si vous n’êtes pas satisfait du bannissement, parlez en avec le modérateur ou dégradez le.</p>',
+     'banby' => 'a été banni par',
+     'clkunmod' => 'Cliquez pour dégrader',
+     'unfriendly' => '<p>Note : Votre groupe peut être retiré des listes si vous ou vos modérateurs ne sont pas sympathiques. Le chat n’apparaîtra alors pas dans la liste des groupes ou parmi les chats populaires.</p>',
+     'transno' => 'La retranscription n’existe plus. Elle a peut-être été supprimée. Les retranscriptions ne sont conservées qu’une seule semaine',
+     'unmod' => 'Dégrader un modérateur',
+     'yesunmod' => 'Oui - le dégrader',
+     'sureunmod' => 'Êtes-vous sûr de vouloir le dégrader',
+     'chatconf' => 'Veuillez le confirmer en le mettant invité sur le chat',
+     'tounmod' => 'Cliquez sur le lien ci-dessus pour dégrader',
+     'istrans' => 'Voici une retranscription des messages qui ont mené au bannissement',
+     'chatid' => 'ID du Chat :',
+     'seeall' => 'Vous pouvez ici voir toutes les images d’un groupe et facilement signaler toutes celles inappropriées à l’hébergeur des images.'
+	 ]
+?>
