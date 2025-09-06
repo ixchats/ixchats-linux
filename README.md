@@ -18,7 +18,7 @@ what is the goe html and custom chat sounds at 180.html?? "Gsound"??
 `content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio, tho they're all looking classic so idk about higher quality)
 
 `content/js/xmas/` this needs deob, so easy
-`content/temp/canvas.html` - contains hardcoded allowed domains and also xat domains, fix!!
+`content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
 (use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)
 Fixed:<br>
