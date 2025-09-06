@@ -31,6 +31,7 @@ not sure if it will break anything or not so i left it "System problem. Please t
 wtf is "O-Bot - xat Bot Service Provider" in `app/views/layout/panel/src/navbar/nav.php`??
 why the fuck is there `<script>location="../"</script>` in both index.html and index.php IN EVERY FOLDER in cgi-bins??
 cgi-bins is about InnovaStudio (https://InnovaStudio.com)???
+useless folder? `content/fonts/test/`
 
 why tf is `app/views/terms.php` the only thing to include https://rxat.wiki/? lol
 Progress:
