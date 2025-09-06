@@ -56,6 +56,7 @@ Legal:<br>
 > Also stored in: `app/views/maintenance.php`<br>
 > Also stored in: `apps/views/terms.php`<br>
 > Also stored in: `apps/views/Tools.php` (why is it located in 3 files wtf)<br>
+
 `app/views/Privacy.php` - Privacy Policy<br>
 
 ## Key Sections
