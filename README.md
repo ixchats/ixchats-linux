@@ -28,6 +28,7 @@ not sure if it will break anything or not so i left it "System problem. Please t
 `app/functions/web_gear/store/Buy2.php` - line 124 has a PayPal fundraiser that doesn't exist anymore<br>
 `app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com
 `app/views/layout/classic/src/footer/foot.php` - uses weserv.nl which is a image cache and resize service, using Cloudflare CDN
+wtf is "O-Bot - xat Bot Service Provider" in `app/views/layout/panel/src/navbar/nav.php`??
 
 why tf is `app/views/terms.php` the only thing to include https://rxat.wiki/? lol
 Progress:
