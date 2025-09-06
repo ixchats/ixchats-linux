@@ -15,7 +15,7 @@ just a ixchat for linux or something, yuh<br><br>
 `/app/functions/web_gear/user/Profile2.php` - this is still using xat domains!! fix<br>
 `app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)
 what is the goe html and custom chat sounds at 180.html?? "Gsound"??
-`content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio)
+`content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio, tho they're all looking classic so idk about higher quality)
 
 `content/js/xmas/` this needs deob, so easy
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
