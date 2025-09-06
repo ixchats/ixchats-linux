@@ -16,16 +16,22 @@ just a ixchat for linux or something, yuh<br><br>
 `app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)
 what is the goe html and custom chat sounds at 180.html?? "Gsound"??
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
-
+(use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)
 Fixed:<br>
 `app/functions/web_gear/EditGroup.php` - "Your Group is not Active please go to Your Email" bruh wtf is this broken ahh text, i fixed it dawg but like why is it all capitalised and shi (it also manages emails)<br>
 `app/functions/web_gear/group/editgroup3.php` - wtf is on with this shit but anyways i fixed it again<br><br>
 `app/goe/js/200.js` - line 1 had a space for some odd reason
-
+`app/views/chats.php` - "<meta property="fb:admins" content="634242600074268" />" some legacy facebook app shit, removed and 8-3 is some google analytics, removed and at line 1457 is the same google shit, removed
 Other:<br>
 not sure if it will break anything or not so i left it "System problem. Please try later, sorry.(no search)" in `/web_gear/group/Search2.php` line 25<br>
 `app/functions/web_gear/store/Buy2.php` - line 124 has a PayPal fundraiser that doesn't exist anymore<br>
 `app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com
+
+Progress:
+Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace
+
+Legal:
+`CMS+PANEL/app/views/ChatTerms.php` - Terms of Use
 ## Key Sections
 
 ### 1. MySQL Database
