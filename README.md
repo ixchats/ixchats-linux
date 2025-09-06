@@ -11,7 +11,9 @@ just a ixchat for linux or something, yuh<br><br>
 `/app/functions/panel/LastPower.php` - on line 13 there is an official xat domain, fix it by adding the DOMAIN var thing<br>
 `app/functions/json/xavi/Put.php` tf is this?? there's also Put2.php<br>
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.<br>
-`app/functions/web_gear/group/Events2.php` - incomplete code at like 175 "meh too busy to finish it, maybe later"
+`app/functions/web_gear/group/Events2.php` - incomplete code at like 175 "meh too busy to finish it, maybe later"<br>
+`/app/functions/web_gear/user/Profile2.php` - this is still using xat domains!! fix<br>
+
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
 
 Fixed:<br>
