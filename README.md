@@ -19,6 +19,7 @@ what is the goe html and custom chat sounds at 180.html?? "Gsound"??<br>
 `/content/web/` - why tf all these exist bro also it has mentions of rxat too im not bothering with that because theres already files with php, is this only for reference? (`content/web/R00036/apps/fourinarow/css/styles.css` - wtf why is it called `styles.css`, call it `style.css`, `content/web/R00036/img/navbar/youtube.svg` - fake youtube logo??)<br>
 `content/web/R00036/img/home` - has mentions to xat, retake screenshots?<br>
 i fking give up on adding the files to R00064 lol<br>
+`images/Download_on_the_App_Store_Badge_US-UK_135x40.svg` - neatly rename?<br>
 
 `content/js/xmas/` this needs deob, so easy<br>
 `content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!<br>
