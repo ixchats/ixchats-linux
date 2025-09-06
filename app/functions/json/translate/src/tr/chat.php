@@ -1,0 +1,163 @@
+<?php
+$array = [
+     'creategroup' => 'Grup olustur',
+     'badpass' => 'Sifre hatasi.',
+     'modrules' => 'kurallara uymasi icin degistirildi',
+     'access' => 'access the existing groups here',
+     'yourname' => 'Isminiz:',
+     'desc' => 'Grup Aciklamasi:',
+     'let2050' => '(20-50 harf arasi)',
+     'grt6' => 'En az 6 harf, büyük kücük harfe duyarli - PAYLASMA (sifre sadece grup düzenlemesi icin)',
+     'noshare' => 'PAYLASMA',
+     'passonly' => '(sifre sadece grup düzenlemesi icin)',
+     'tags' => 'Etiketler:',
+     'sepcom' => '(virgül ile ayrilmis)',
+     'taginfo' => 'Etiketler baskalarinin grubunu bulabilmesi icin tanimlanan anahtar kelimelerdir. Örnegin: yarisma düzenlenen bir grup etiketlenebilir: yaris, nascar, araba. Ingilizcesi olmayan kullanicilar kendi dilini dahil edebilir örnegin, Fransizca.',
+     'mustvalid' => 'BU GRUBU AKTIF ETMEK ICIN GECERLI BIR E-POSTA OLMASI GEREKMEKTEDIR.',
+     'grpres' => 'grup ismi rezerve edilmistir',
+     'grpexist' => 'grup ismi zaten mevcut',
+     'urlinfo' => 'Istege bagli - Bu grubu tesvik edecek/tanitima cikaracak web sayfasinin adresi',
+     'grpac1' => '<p>Tesekkür ederiz, grup basvurunuz islendi. <br /> 
+Onay e-postaniza gönderildi. Suan grubunuzu etkinlestirmek icin e-postaya gelen baglantiya 
+tiklamaniz gerekiyor.</p>
+<p><strong>N.B. eger eposta almadiysan spam kutunu kontrol et.</strong></p>
+<p><strong>(e-postanin gelmesi 30 dakika kadar sürebilir)</strong></p>
+<p>Eger e-postanizi yine de bulamazsaniz farkli bir e-posta saglayicisi kullanin. <a href="https://gmail.com">Gmail</a> hesabi deneyin. Eger e-posta saglayiciniz epostalarimizi sunmazsa sohbetinizi isletemezsiniz.</p>',
+     'grpac2' => 'Lütfen '.XAT_NAME.' sohbet grubunu etkinlestirin:%s',
+     'grpac3' => 'Selam %s,
+
+Asagida bulunan baglantiya tiklayin %s grubunuzu etkinlestirmek ve sahip olmak icin:
+
+%s
+
+(N.B. bu baglantiya tiklamadiginiz sürece grup ismi rezerve edilmez ve etkinlesmez)
+
+Aktivasyonu onaylamak icin baska bir e-posta yollanacak.',
+     'grpinfo' => 'Sohbet gruplari belirli bi amac icin paylasilan sohbet odalaridir. Belirli konular tartisilabilir (örnegin müzik, anime, bilgisayar oyunlari), belirli bi yas grubu veya bir kisi türü (örnegin 20 herhangi birsey, ögrenciler) veya belirli bi ülke / dil. Mevcut gruplara <a href="//'.DOMAIN.'/groups">buradan erisim saglayabilirsin</a>',
+     'az' => 'A-Za-z0-9_ sadece örnegin: EmoYeri',
+     'grpwarn' => '<p>Grubunuz uyari olmadan kaldirilabilir veya düzeltilebilir eger:</p>
+<p>Gecerli bir e-posta adresi vermiyorsunuz<br>
+ Eger grup ismi uygunsuz ise (<a href="//'.DOMAIN.'/terms" target="_blank">Kullanim Sartlari</a> göz at)<br>
+ Grup kullanilmiyor veya denetlenmiyor</p>',
+     'iam14' => 'Ben 14 yas ya da üzeriyim ve <a href="//'.DOMAIN.'/terms" target="_blank">Kullanim Sartlarini</a> onayliyorum',
+     'sendfbk' => 'Sohbet grubu sahibine geribildirim gönder',
+     'contact' => 'Eger %s grubun sahibine ulasim saglamak istiyorsan buradan bunu yapabilirsin. Eger gecerli bir e-posta adresi vermezseniz sahipler e-postalara cevap vermekte yükümlü olmazlar.',
+     'grpmess1' => 'xatgrup: %s - Mesaj',
+     'grpmes2' => 'Selam %s Bu ziyaretci %s sohbet grubunda Mesaj butonuna tikladi ve sana gelen mesaji yolladi. (BAGLANTILARA TIKLAMAMANIZI ÖNERIYORUZ).',
+     'noemail' => 'Kullanici e-posta adresi saglamadi',
+     'thxsent' => 'Tesekkürler. Mesajin yollandi',
+     'optemail' => 'Istege bagli fakat gecerli bir sebep degilse cevap alamazsiniz',
+     'message' => 'Mesaj',
+     'send' => 'Gönder',
+     'grpmess2' => 'Selam %s Bu ziyaretci %s sohbet grubunda Mesaj butonuna tikladi ve sana gelen mesaji yolladi. (BAGLANTILARA TIKLAMAMANIZI ÖNERIYORUZ).',
+     'reportgrp' => 'uygunsuz bir sohbeti rapor et',
+     'plzsel' => 'Lütfen secin...',
+     'badlang' => 'Saldirgan Dil',
+     'scamming' => 'Dolandiricilik, Kimlik avi ya da korsanlik',
+     'badimg' => 'Uygunsuz Resimler veya Vidyo',
+     'bully' => 'Taciz, Siber zorbalik, Sahtekarlik',
+     'unwanted' => 'Istenmeyen Iletisim',
+     'otherissue' => 'Diger Sart Ihlalleri (Lütfen Belirtin)',
+     'readcare' => 'Önemli: Lütfen "Uygunsuz" durumlari bildirmeden dikkatlice okuyun',
+     'mustsel' => 'Ilgili kategoriyi secmelisiniz',
+     'bademail' => 'gecersiz e-posta',
+     'mustchars' => 'en az 8 harf olmali',
+     'complaint' => 'Sikayet:',
+     'bedetailed' => '(Sikayetinizi ciddiye alabilmemiz icin lütfen mümkün oldugu kadar detayli sekilde anlatin)',
+     'nonotify' => 'Rapor sonuncundan veya yapilan herhangi bir islemden haberdar edilmezsiniz.',
+     'repimg' => 'Resimleri rapor et',
+     'canreport' => 'Uygunsuz olan herhangi birseyi eger <a href="//'.DOMAIN.'/terms.html">Kullanim Sartlarimizi</a> ihlal ediyorsa rapor edebilirsiniz. Eger birseyin uygunsuz olduguna inaniyorsan lütfen asagida bulunan kutuyu kullan ve bize sebebini acikla. Ancak, '.XAT_NAME.' kullanicilar arasinda ki anlasmazliklarin cözümü konusunda yardimci olmaz. Lütfen gecerli bir sebep olmadan rapor etme, eger bunu suistimal edersen servisimizi kullanmaktan men edilebilirsin.',
+     'addinfo' => 'Ek Bilgi:<br>
+(Sikayetinizi ciddiye alabilmemiz icin lütfen mümkün oldugu kadar detayli sekilde anlatin)',
+     'reportpro' => 'Uygunsuz xat.me profilini rapor et',
+     'repuser' => 'Kullanici rapor et',
+     'grpknown' => 'Grup (eger biliniyorsa)',
+     'postcom' => 'Yorum gönder',
+     'todelete' => 'Yorumu silmek icin sahip olman gerekiyor',
+     'topost' => 'Yorum yollamak icin üye olman gerekiyor',
+     'confdel' => 'Yorumu silmeyi onayla',
+     'typecom' => 'Yorumu buraya yaz. Basit HTML ve resim kullanabilirsin. (Limit 5000 bayt)',
+     'delcom' => 'Yorum sil',
+     'savcom' => 'Yorumu kaydet',
+     'activategrp' => 'Yeni sohbet grubu etkinlestir',
+     'expired' => 'Grup uygulamanin süresi doldu. Tekrar deneyebilirsin.',
+     'already' => 'Bu grup zaten aktive edildi.',
+     'taken' => 'Üzgünüm, bu grup simdi alindi. Farkli bir grup ismiyle tekrar deneyebilirsin.',
+     'activated' => 'Grubunuz simdi etkinlestirildi! Detaylar icin e-postanizi kontrol edin. Grup adresiniz:',
+     'grpok1' => 'Grup %s aktivasyon tamamlandi',
+     'grpok2' => 'Selam %s,
+
+Sohbet grubun: %s simdi etkinlestirildi.
+Grup baglantin: %s
+
+%s sohbet grubunu düzenlemek icin sag alt kisimda bulunan ’Düzenle’ butonuna tikla ve sifreni gir. Eger sahip durumunu kaybettiyseniz bunu tekrar alabilmek icin ’Sohbet Düzenle’ butonuna basin.
+
+Eger grup Kullanim Sartlarina %s uymazsa ya da kullanim disi olursa düzeltilebilir ya da silinebilir. Bireyler sohbet kutusuna yolladiklari seylerden sorumludur, fakat grup yöneticileri kullanicilarin Kullanim Sartlarini yerine getirmesi icin elinden geleni yapmak zorundadirlar.
+
+Sohbetin tadini cikar ve bol sanslar!
+
+xat',
+     'seachchat' => 'Sohbeti ara',
+     'searchinfo' => 'Özel Sohbetler, Özel Mesajlar, Sadece üyelere, Listeleme ve Arama yapilmasin. <a href="//util.'.DOMAIN.'/wiki/index.php?title=Special:MyLanguage/Search">Daha fazla Bilgi</a>',
+     'moreinfo' => 'Daha fazla Bilgi.',
+     'nores' => 'Üzgünüm sonuc yok',
+     'moreresults' => 'Daha fazla sonuc',
+     'minsago' => 'dakikalar önce',
+     'hoursago' => 'saatler önce',
+     'searchingfor' => 'Araniyor:',
+     'results' => 'Sonuclar',
+     'search' => 'Arama',
+     'mustbe' => 'en azindan olmali',
+     'letters' => 'harfler',
+     'unfair' => 'Haksiz Yasaklama',
+     'noctrl' => 'Tanitim: Uygunsuz ve Kontrol disi',
+     'addcom' => 'Yorum ekle',
+     'dispcom' => 'Yorum görüntüle',
+     'delete' => 'sil',
+     'news' => 'Yenilikler',
+     'events' => 'Olaylar',
+     'inapp' => 'uygunsuz',
+     'comments' => 'Yorumlar',
+     'grid' => 'kilavuz',
+     'player' => 'player',
+     'doodle' => 'karalama',
+     'translate' => 'ceviri',
+     'games' => 'oyunlar',
+     'apps' => 'uygulamalar',
+     'embed' => 'Embed',
+     'chglang' => 'Dil degistir',
+     'sellang' => 'Dil sec:',
+     'eventsfor' => 'Sohbet olaylari icin',
+     'oldres' => 'Eski sonuclar',
+     'duration' => 'Süre',
+     'text' => 'Metin',
+     'canevents' => 'Sohbet olaylarini arayabilirsin (<a href="//util.'.DOMAIN.'/wiki/index.php?title=Special:MyLanguage/Events">wiki</a> göz at)',
+     'all' => 'Hepsi',
+     'time' => 'Zaman',
+     'emailsent' => 'E-posta gönderildi',
+     'needlogin' => 'Bu sayfayi kullanmak icin lütfen <a href="//'.DOMAIN.'/login">login</a> ol.',
+     'needevents' => 'Üzgünüm, bu sayfayi kullanmak icin events gücüne ihtiyacin var.',
+     'nodays' => 'Üzgünüm, daysin bitti.',
+     'continue' => 'Devam et',
+     'name' => 'Isim',
+     'grassmod' => 'Moderatörü rapor et',
+     'feelunfair' => 'Eger moderatör tarafindan haksiz muamele gördügünü hissediyorsan bunu grubun sahibine rapor edebilirsin. Sahipler e-postalara cevap vermekle yükümlü degillerdir, fakat gecersiz bi e-posta verirsen kesinlikle cevap vermezler.',
+     'modrpt1' => ''.XAT_NAME.' grup: %s - Moderatör raporu',
+     'modrpt2' => 'Selam %s Bu raporu gurubunda bulunan bir moderatörden dolayi aldin',
+     'modrpt3' => 'Buraya tikla: %s eventsin transkriptlerini görmek icin.',
+     'transcript' => 'Sohbet transkript',
+     'youneed' => '<p>Moderatörlerinin iyi is cikarmasini ve ziyaretcilere adil davranmasini saglaman gerekir. Sadece bir kötü mod sohbet kutusunu batirmaya sebep olabilir. Eger moderatörlerin iyiyse sohbet kutun cok ve cok fazla daha popülerlik kazanir.</p><p>Lütfen bu haksız yasak şikayetini gözden geçirin ve memnun değilseniz, moderatörle ilgili endişeleriniz hakkinda görüşün veya onun yetkisini alin.</p>',
+     'banby' => 'tarafindan yasaklandi',
+     'clkunmod' => 'Mod almak icin tikla',
+     'unfriendly' => '<p>Not: Eger sen veya moderatörlerin kötü davranis sergiliiyorsa grubun liste disi kalabilir. yani xat’n grup ve popüler listesinde veya sohbet kutusunda cikmaz.</p>',
+     'transno' => 'Transkrip mevcut degildir. Silinmis olabilir. Bir hafta icin tutuluyorlar.',
+     'unmod' => 'Moderatörün yetkisini al',
+     'yesunmod' => 'Evet - Yetkiyi al',
+     'sureunmod' => 'Eminmisin yetkisini almak istedigine',
+     'chatconf' => 'Lütfen misafir yap’i sohbet kutusunda onaylayin',
+     'tounmod' => 'Yetkisini almak icin yukarda ki baglantiya tiklayin',
+     'istrans' => 'Asagida, yasaklanma öncesi yapilan sohbetin örnekleri var',
+     'chatid' => 'Sohbet ID:',
+     'seeall' => 'Buradan gruba ait olan tüm resimleri görebilirsin ve herhangi bir uygunsuz resmi, resim sahibine rapor edebilirsin.'
+	 ]
+?>
