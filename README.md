@@ -8,6 +8,7 @@ not checked in root folder:  `vendor`, and `web_gear`<br>
 `vendor/Http/Validator.class.php` recaptcha shit<br>
 `vendor/Translate/GoogleTranslate.class.php` - does this still work?<br>
 `web_gear/index.php` - wtf it's blank<br>
+`web_gear/chat/GetImage7.php` - the origin is NOT xat.com<br>
 
 `app/functions/json/xavi/Action.php` - has emojis (named actions for some reason lol)<br>
 `app/functions/Redirect.php` - line 65 is hardcoded twitter and line 83 is hardcoded email<br>
