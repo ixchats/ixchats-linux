@@ -23,6 +23,7 @@ what is the goe html and custom chat sounds at 180.html?? "Gsound"??<br>
 `content/web/R00036/img/home` - has mentions to xat, retake screenshots?<br>
 i fking give up on adding the files to R00064 lol<br>
 `images/Download_on_the_App_Store_Badge_US-UK_135x40.svg` - neatly rename?<br>
+`firebase-messaging-sw.js` - has mention of rxat<br>
 
 `content/js/xmas/` this needs deob, so easy<br>
 `content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!<br> 
