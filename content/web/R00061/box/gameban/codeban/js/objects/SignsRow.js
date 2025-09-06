@@ -1,0 +1,2 @@
+function _assertThisInitialized(a){if(void 0===a){throw new ReferenceError("this hasn't been initialised - super() hasn't been called")}return a}function _inheritsLoose(a,b){a.prototype=Object.create(b.prototype);a.prototype.constructor=a;a.__proto__=b}var SignsRow=function(a){_inheritsLoose(b,a);function b(b,c,d,e){var f;f=a.call(this,b,c,d)||this;f.signs=b.add.group();for(var g=0;g<e.length;g++){f.signs.add(b.add.sprite(70*g,0,"signs",e[g]))}f.add(f.signs.getChildren());b.add.existing(_assertThisInitialized(f));return f}return b}(Phaser.GameObjects.Container);
+
