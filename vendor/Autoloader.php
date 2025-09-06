@@ -235,7 +235,12 @@ class Server {
 	}
 
 	public static function getUrl(): string {
-		return self::removeSlashes(strtok($_SERVER['REQUEST_URI'], '?'));
+		$uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
+		error_log("Autoloader getUrl: $uri"); // Log for debugging
+		$path = strtok($uri, '?');
+		// Extract the last part of the path (e.g., 'index' from 'ixchats-linux/index.php')
+		$page = basename($path, '.php');
+		return self::removeSlashes($page);
 	}
 
 	public static function loadClasses(): array {
