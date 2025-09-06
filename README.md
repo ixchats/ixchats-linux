@@ -21,21 +21,22 @@ what is the goe html and custom chat sounds at 180.html?? "Gsound"??
 Fixed:<br>
 `app/functions/web_gear/EditGroup.php` - "Your Group is not Active please go to Your Email" bruh wtf is this broken ahh text, i fixed it dawg but like why is it all capitalised and shi (it also manages emails)<br>
 `app/functions/web_gear/group/editgroup3.php` - wtf is on with this shit but anyways i fixed it again<br><br>
-`app/goe/js/200.js` - line 1 had a space for some odd reason
-`app/views/chats.php` - "<meta property="fb:admins" content="634242600074268" />" some legacy facebook app shit, removed and 8-3 is some google analytics, removed and at line 1457 is the same google shit, removed
+`app/goe/js/200.js` - line 1 had a space for some odd reason<br>
+`app/views/chats.php` - "<meta property="fb:admins" content="634242600074268" />" some legacy facebook app shit, removed and 8-3 is some google analytics, removed and at line 1457 is the same google shit, removed<br>
 Other:<br>
 not sure if it will break anything or not so i left it "System problem. Please try later, sorry.(no search)" in `/web_gear/group/Search2.php` line 25<br>
 `app/functions/web_gear/store/Buy2.php` - line 124 has a PayPal fundraiser that doesn't exist anymore<br>
-`app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com
-`app/views/layout/classic/src/footer/foot.php` - uses weserv.nl which is a image cache and resize service, using Cloudflare CDN
-wtf is "O-Bot - xat Bot Service Provider" in `app/views/layout/panel/src/navbar/nav.php`??
-why the fuck is there `<script>location="../"</script>` in both index.html and index.php IN EVERY FOLDER in cgi-bins??
-cgi-bins is about InnovaStudio (https://InnovaStudio.com)???
-useless folder? `content/fonts/test/`
+`app/functions/web_gear/store/promotion2.php` - hardcoded adimage valid link i.imgur.com, i67.tinypic.com<br>
+`app/views/layout/classic/src/footer/foot.php` - uses weserv.nl which is a image cache and resize service, using Cloudflare CDN<br>
+wtf is "O-Bot - xat Bot Service Provider" in `app/views/layout/panel/src/navbar/nav.php`??<br>
+why the fuck is there `<script>location="../"</script>` in both index.html and index.php IN EVERY FOLDER in cgi-bins??<br>
+cgi-bins is about InnovaStudio (https://InnovaStudio.com)???<br>
+useless folder? `content/fonts/test/`<br>
 
-why tf is `app/views/terms.php` the only thing to include https://rxat.wiki/? lol
-Progress:
-Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me but basically all CSP's in the views folder is like that)
+why tf is `app/views/terms.php` the only thing to include https://rxat.wiki/? lol<br>
+Progress:<br>
+Should xatspace be changes to ixchatspace? too long? `app/views/Editme.php` has mentions of xatspace (also fixed one liner... also has mentions of xat.wiki and xat.me but basically all CSP's in the views folder is like that)<br>
+when our logo is done, put it in here: `content/img/`
 
 Legal:
 `app/views/ChatTerms.php` - Terms of Use
