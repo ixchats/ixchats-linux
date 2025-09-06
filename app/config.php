@@ -11,14 +11,14 @@ define('smtpmail', 1); //  Server SMTP  Gmail.
 define('SMTP_Sec', 'ssl'); //  SMTPSecure. 587 for TLS. 465 is reserved for SSL.
 define('host_smtp', base64_decode('')); //  SMTP Gmail. //define('host_smtp', 'smtp.gmail.com'); //  SMTP Gmail.
 define('port_gmail', '465'); //  Port SMTP Gmail.
-define('mail_gmail', base64_decode('')); //  Gmail. //define('mail_gmail', 'rxat.ro@gmail.com''); //  Gmail.
+define('mail_gmail', base64_decode('')); //  Gmail. //define('mail_gmail', 'ixchats@gmail.com''); //  Gmail.
 define('pass_gmail', ''); // Password Gmail.
 
 /* Settings */
 define('DEBUG', array_key_exists('isdebug', $_GET) ? true : false); // false, true
 define('LANGUAGES', ['en', 'es', 'pt', 'fr', 'it', 'tr', 'ro', 'hu', 'et', 'ar', 'th', 'de']); // Languages list, e.g: pt, en, es
 define('DEFAULT_LANG', 'en'); // Default language if not found in the list
-define('DOMAIN', 'rxat.ro'); // Site link
+define('DOMAIN', 'localhost:8000'); // Site link
 define('SEASON', ['normal','png']); // Site logo [season, format] #normal
 define('VERSION', '7.1.0'); // Your site version
 define('MINIFY_HTML', true);
@@ -28,9 +28,9 @@ define('I_BACKGROUND', 'https://img.xatblog.net/image/71aTpYt1i.png');
 
 /* Global variables */
 define('METHOD', 'https:');
-define('CDNMAIN', '//rxat.ro/');
-define('XAT_NAME', 'rxat');
-define('FACEBOOK', 'https://www.facebook.com/rxat.ro');
+define('CDNMAIN', '//localhost:8000/'); // change if needed for production, example: ixchats.com
+define('XAT_NAME', 'ixchats'); // the xat instance name
+define('FACEBOOK', 'https://www.facebook.com/ixchats');
 define('BOXVERSION', 'R00065');
 define('DIRVERSION', 'R00065');
 define('SOCKDOMAIN', '95.111.236.253');
