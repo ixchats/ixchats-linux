@@ -13,7 +13,7 @@ just a ixchat for linux or something, yuh<br><br>
 `app/config.php` - sets up configurations for database connections, email settings, site behavior, APIs, donations, auctions, and feature flags.<br>
 `app/functions/web_gear/group/Events2.php` - incomplete code at like 175 "meh too busy to finish it, maybe later"<br>
 `/app/functions/web_gear/user/Profile2.php` - this is still using xat domains!! fix<br>
-
+`app/goe/html/92.html` - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
 
 Fixed:<br>
