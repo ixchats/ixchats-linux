@@ -16,12 +16,13 @@ just a ixchat for linux or something, yuh<br><br>
 `app/goe/html/92.html` 92, 96, 98, 102, 108, 148, 156 - has invalid link (use web archive or make/find equivalent?) http://www.febooti.com/products/iezoom/online-help/online-color-chart-picker.html (wtf is Zatbots on 150.html)<br>
 what is the goe html and custom chat sounds at 180.html?? "Gsound"??<br>
 `content/sounds/audies/` - why webm, it's audio, it should be wav! (also is there any higher quality audio, tho they're all looking classic so idk about higher quality)<br>
-`/content/web/` - why tf all these exist bro also it has mentions of rxat too im not bothering with that because theres already files with php, is this only for reference?<br>
+`/content/web/` - why tf all these exist bro also it has mentions of rxat too im not bothering with that because theres already files with php, is this only for reference? (`content/web/R00036/apps/fourinarow/css/styles.css` - wtf why is it called `styles.css`, call it `style.css`)<br>
 
 `content/js/xmas/` this needs deob, so easy
 `content/temp/canvas.html` and `bot-min3.js` - contains hardcoded allowed domains and also xat domains, fix!!
 `web_gear/gifts/Gift1.php` - line 16 has xat domain, so easy to fix!! priority<br>
-(use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)
+(use <?php echo XAT_NAME ?> and <?php echo DOMAIN ?>)<br>
+
 Fixed:<br>
 `app/functions/web_gear/EditGroup.php` - "Your Group is not Active please go to Your Email" bruh wtf is this broken ahh text, i fixed it dawg but like why is it all capitalised and shi (it also manages emails)<br>
 `app/functions/web_gear/group/editgroup3.php` - wtf is on with this shit but anyways i fixed it again<br><br>
